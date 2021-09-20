@@ -1,0 +1,85 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/surahTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/surah_selection_title"
+            android:textColor="?android:attr/textColorPrimary" />
+
+        <EditText
+            android:id="@+id/surahValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:imeOptions="flagNoExtractUi"
+            android:textColor="?android:attr/textColorPrimary"
+            android:inputType="text|textAutoComplete"
+            android:selectAllOnFocus="true"
+            tools:text="Аль-Фатиха" />
+
+        <TextView
+            android:id="@+id/ayahNumberTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/ayah_selection_title"
+            android:textColor="?android:attr/textColorPrimary" />
+
+        <EditText
+            android:id="@+id/ayahValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="2dp"
+            android:imeOptions="flagNoExtractUi"
+            android:inputType="text|textAutoComplete"
+            android:selectAllOnFocus="true"
+            android:textColor="?android:attr/textColorPrimary" />
+
+        <TextView
+            android:id="@+id/pageNumberTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/page_number"
+            android:textColor="?android:attr/textColorPrimary" />
+
+        <EditText
+            android:id="@+id/pageNumberField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:imeOptions="actionGo|flagNoExtractUi"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textColorHint="?android:attr/textColorPrimary"
+            android:textColor="?android:attr/textColorPrimary"
+            tools:text="100" />
+
+        <Button
+            android:id="@+id/jumpToAyahButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/jump_to_ayah"
+            android:textColor="#ffffff"
+            app:backgroundTint="?colorAccent" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

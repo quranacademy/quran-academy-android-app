@@ -1,0 +1,200 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/windowBackground"
+    android:layoutDirection="ltr"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/currentAudioPlaybackStatus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:gravity="center"
+        android:maxLines="2"
+        android:textColor="?android:textColorPrimary"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Status" />
+
+    <TextView
+        android:id="@+id/currentAudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="24dp"
+        android:textColor="?android:textColorPrimary"
+        app:layout_constraintBottom_toTopOf="@+id/playbackProgressView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/currentAudioPlaybackStatus"
+        tools:text="Сура аль-Фаляк, 3 аят" />
+
+    <SeekBar
+        android:id="@+id/playbackProgressView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="16dp"
+        android:progressDrawable="?attr/playerProgressBg"
+        android:splitTrack="false"
+        android:thumb="?attr/playerProgressThumbBg"
+        app:layout_constraintBottom_toTopOf="@+id/playPauseContainer"
+        app:layout_constraintLeft_toRightOf="@+id/currentProgressTime"
+        app:layout_constraintRight_toLeftOf="@+id/endTime" />
+
+    <TextView
+        android:id="@+id/currentProgressTime"
+        style="@style/AppTheme.PlayerControl.Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/playbackProgressView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/playbackProgressView"
+        app:layout_constraintTop_toTopOf="@+id/playbackProgressView"
+        tools:text="2.0" />
+
+    <TextView
+        android:id="@+id/endTime"
+        style="@style/AppTheme.PlayerControl.Time"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/playbackProgressView"
+        app:layout_constraintLeft_toRightOf="@+id/playbackProgressView"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/playbackProgressView"
+        tools:text="4.50" />
+
+    <FrameLayout
+        android:id="@+id/prevAyahButton"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="24dp"
+        android:background="?attr/rippleCircle"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/playPauseContainer"
+        app:layout_constraintEnd_toStartOf="@+id/playPauseContainer"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintLeft_toRightOf="@+id/stopPlayback"
+        app:layout_constraintTop_toTopOf="@+id/playPauseContainer">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:duplicateParentState="true"
+            android:tint="?attr/iconsColor"
+            app:srcCompat="@drawable/ic_prev" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/nextAyahButton"
+        style="@style/AppTheme.PlayerControl.Button"
+        android:layout_marginLeft="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/playPauseContainer"
+        app:layout_constraintLeft_toRightOf="@+id/playPauseContainer"
+        app:layout_constraintTop_toTopOf="@+id/playPauseContainer">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:duplicateParentState="true"
+            android:tint="?attr/iconsColor"
+            app:srcCompat="@drawable/ic_next" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/playPauseContainer"
+        android:layout_width="@dimen/play_pause_size"
+        android:layout_height="@dimen/play_pause_size"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/nextAyahButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9">
+
+        <com.ohoussein.playpause.PlayPauseView
+            android:id="@+id/playPauseButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/play_ring"
+            android:clickable="true"
+            android:duplicateParentState="true"
+            android:focusable="true"
+            app:fill_color="#fafafa"
+            app:pause_bg="@color/gray"
+            app:play_bg="@color/gray" />
+
+        <com.pnikosis.materialishprogress.ProgressWheel
+            android:id="@+id/audioDownloadProgress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:duplicateParentState="true"
+            android:visibility="invisible"
+            app:matProg_barColor="#5588FF"
+            app:matProg_barWidth="4dp"
+            app:matProg_fillRadius="true"
+            app:matProg_progressIndeterminate="true"
+            app:matProg_rimColor="@color/gray"
+            app:matProg_rimWidth="4dp"
+            app:matProg_spinSpeed="0.333" />
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/stopPlayback"
+        style="@style/AppTheme.PlayerControl.Button"
+        app:layout_constraintBottom_toBottomOf="@+id/prevAyahButton"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/prevAyahButton"
+        app:layout_constraintTop_toTopOf="@+id/prevAyahButton"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:tint="?attr/iconsColor"
+            app:srcCompat="@drawable/ic_stop_gray_24dp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/openPlaybackSettings"
+        style="@style/AppTheme.PlayerControl.Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/prevAyahButton"
+        app:layout_constraintStart_toEndOf="@+id/nextAyahButton"
+        app:layout_constraintTop_toTopOf="@+id/nextAyahButton">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:tint="?attr/iconsColor"
+            app:srcCompat="@drawable/ic_settings_black_24dp" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,25 @@
+<resources>
+
+    <style name="AppTheme.PlayerOptions.GroupTitle" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.PlayerControl.Button" parent="Theme.AppCompat">
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:background">?attr/rippleCircle</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="AppTheme.PlayerControl.Time" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>

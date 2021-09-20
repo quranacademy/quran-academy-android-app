@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?android:windowBackground"
+            android:orientation="vertical"
+            android:paddingBottom="16dp">
+
+            <TextView
+                android:id="@+id/memorizationModeLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/memorization_mode_label"
+                android:textColor="?android:textColorPrimary"
+                app:layout_constraintBottom_toBottomOf="@+id/memorizationModeValue"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/memorizationModeValue" />
+
+            <TextView
+                android:id="@+id/memorizationModeValue"
+                style="@style/AppTheme.OptionValue"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="16dp"
+                android:paddingBottom="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="По страницам" />
+
+            <TextView
+                android:id="@+id/pageNumberLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/page_number"
+                android:textColor="?android:textColorPrimary"
+                app:layout_constraintBottom_toBottomOf="@+id/pageNumberValue"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/pageNumberValue" />
+
+            <TextView
+                android:id="@+id/pageNumberValue"
+                style="@style/AppTheme.OptionValue"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:paddingBottom="5dp"
+                android:text="562"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/memorizationModeValue" />
+
+            <TextView
+                android:id="@+id/surahLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/surah_selection_title"
+                android:textColor="?android:textColorPrimary"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@+id/surahValue"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/surahValue" />
+
+            <TextView
+                android:id="@+id/surahValue"
+                style="@style/AppTheme.OptionValue"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:paddingBottom="5dp"
+                android:text="98"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pageNumberValue" />
+
+            <TextView
+                android:id="@+id/ayahsRangeLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/ayahs_range_selection_label"
+                android:textColor="?android:textColorPrimary"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@+id/ayahsRangeValue"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/ayahsRangeValue" />
+
+            <TextView
+                android:id="@+id/ayahsRangeValue"
+                style="@style/AppTheme.OptionValue"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:paddingBottom="5dp"
+                android:text="15-43"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/surahValue" />
+
+            <TextView
+                android:id="@+id/ayahRepetitionsCountLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/memorization_ayah_repetition_count"
+                android:textColor="?android:textColorPrimary"
+                app:layout_constraintBottom_toBottomOf="@+id/ayahRepetitionsCountValue"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/ayahRepetitionsCountValue" />
+
+            <TextView
+                android:id="@+id/ayahRepetitionsCountValue"
+                style="@style/AppTheme.OptionValue"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:paddingBottom="5dp"
+                android:text="3 раза"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ayahsRangeValue" />
+
+            <TextView
+                android:id="@+id/delayBetweenRepetitionsLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/memorization_delay_between_repetitions"
+                android:textColor="?android:textColorPrimary"
+                app:layout_constraintBottom_toBottomOf="@+id/delayBetweenRepetitionsValue"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/delayBetweenRepetitionsValue" />
+
+            <TextView
+                android:id="@+id/delayBetweenRepetitionsValue"
+                style="@style/AppTheme.OptionValue"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:paddingBottom="5dp"
+                android:text="3 раза"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ayahRepetitionsCountValue" />
+
+            <TextView
+                android:id="@+id/recitationTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/recitation_label"
+                android:textColor="?android:textColorPrimary"
+                app:layout_constraintBottom_toBottomOf="@+id/recitationValue"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/recitationValue" />
+
+            <TextView
+                android:id="@+id/recitationValue"
+                style="@style/AppTheme.OptionValue"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:paddingBottom="5dp"
+                android:text="Айман ас-Сувейд"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/delayBetweenRepetitionsValue" />
+
+            <Button
+                android:id="@+id/startMemorizationButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/start_label"
+                android:textColor="#ffffff"
+                app:backgroundTint="?colorAccent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.459"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/recitationValue" />
+
+            <Button
+                android:id="@+id/openMemorizationHelpButton"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/tutorial_label"
+                android:textColor="?colorAccent"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.459"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/startPlaybackButton" />
+
+            <androidx.constraintlayout.widget.Group
+                android:id="@+id/pageMemorizationModeGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:constraint_referenced_ids="pageNumberLabel,pageNumberValue" />
+
+            <androidx.constraintlayout.widget.Group
+                android:id="@+id/ayahsRangeMemorizationModeGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:constraint_referenced_ids="surahLabel,surahValue,ayahsRangeLabel,ayahsRangeValue" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

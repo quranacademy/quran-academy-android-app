@@ -1,0 +1,20 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.quranacademy.quran.memorization">
+
+    <application>
+        <activity android:name="org.quranacademy.quran.memorization.ui.MemorizationModeSelectionActivity" />
+
+        <activity android:name="org.quranacademy.quran.memorization.ui.MemorizationActivity" />
+
+        <activity android:name="org.quranacademy.quran.memorization.ui.options.MemorizationOptionsActivity" />
+
+        <activity android:name="org.quranacademy.quran.memorization.ui.test.MemorizationTestActivity" />
+
+        <activity android:name="org.quranacademy.quran.memorization.ui.results.MemorizationResultsActivity" />
+
+
+        <activity android:name="org.quranacademy.quran.memorization.ui.help.MemorizationTutorialActivity" />
+
+    </application>
+
+</manifest>

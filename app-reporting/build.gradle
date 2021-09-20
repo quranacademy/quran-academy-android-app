@@ -1,0 +1,7 @@
+apply from: '../build_scripts/modules-config.gradle'
+
+dependencies {
+    implementation project(':core')
+    api 'com.google.firebase:firebase-crashlytics:18.2.0'
+    api 'com.google.firebase:firebase-analytics-ktx:19.0.0'
+}

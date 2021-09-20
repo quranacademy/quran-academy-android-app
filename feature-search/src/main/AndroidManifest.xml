@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.quranacademy.quran.search">
+
+    <application>
+
+        <activity
+            android:windowSoftInputMode="adjustNothing"
+            android:name=".presentation.SearchActivity" />
+
+    </application>
+
+</manifest>

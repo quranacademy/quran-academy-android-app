@@ -1,0 +1,8 @@
+apply from: '../build_scripts/modules-config.gradle'
+
+dependencies {
+    implementation project(':core-ui')
+
+    kapt libraries.moxyCompiler
+    kapt libraries.toothpickCompiler
+}

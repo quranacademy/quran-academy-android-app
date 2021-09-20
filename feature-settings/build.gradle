@@ -1,0 +1,15 @@
+apply from: '../build_scripts/modules-config.gradle'
+
+dependencies {
+    implementation project(':core')
+    implementation project(':core-database')
+    implementation project(':core-prefs-api')
+    implementation project(':core-ui')
+    api project(':ui-preferences')
+    implementation 'com.tonyodev.storagegrapher:storagegrapher:1.4'
+    //implementation 'com.imangazaliev.material-prefs:core:1.0.1'
+    //implementation 'com.imangazaliev.material-prefs:dialogs:1.0.1'
+
+    kapt libraries.moxyCompiler
+    kapt libraries.toothpickCompiler
+}

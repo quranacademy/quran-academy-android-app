@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="ayah_toolbar_height">40dp</dimen>
+    <dimen name="ayah_toolbar_total_height">60dp</dimen>
+    <dimen name="ayah_toolbar_item_width">48dp</dimen>
+    <dimen name="translations_panel_height">200dp</dimen>
+
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Light-->
+
+    <color name="primary">@color/hqa_blue_100</color>
+    <color name="primary_dark">@color/hqa_blue_100</color>
+    <color name="accent">@color/hqa_blue_100</color>
+
+    <color name="window_background_light">@color/white</color>
+    <color name="window_background_secondary_light">#f5f5f5</color>
+
+    <color name="text_primary_light">@color/black</color>
+    <color name="text_primary_disabled_light">@color/hqa_text_grey_200</color>
+    <color name="text_secondary_light">@color/hqa_text_grey_200</color>
+
+    <!--Brown-->
+
+    <color name="primary_brown">#795548</color>
+    <color name="primary_dark_brown">#5e342e</color>
+    <color name="accent_brown">#009688</color>
+
+    <color name="text_primary_brown">@color/black</color>
+    <color name="text_primary_disabled_brown">@color/grey_alpha_50</color>
+    <color name="text_secondary_brown">@color/hqa_text_grey_200</color>
+
+    <color name="window_background_brown">#fff8e1</color>
+    <color name="window_background_secondary_brown">#f7eed5</color>
+
+    <!--Night-->
+
+    <color name="primary_night">@color/md_grey_900</color>
+    <color name="primary_dark_night">@color/md_grey_900</color>
+    <color name="accent_night">@color/hqa_blue_50</color>
+
+    <color name="window_background_night">#2c2c2c</color>
+    <color name="window_background_secondary_night">#343434</color>
+
+    <color name="text_primary_night">@color/md_white_1000</color>
+    <color name="text_primary_disabled_night">@color/hqa_text_grey_200</color>
+    <color name="text_secondary_night">#ccffffff</color>
+
+
+    <!-- Quran Academy colors -->
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#4f4f4f</color>
+    <color name="hqa_grey_100">#697882</color>
+    <color name="hqa_dark_grey_100">#2c2c2c</color>
+    <color name="hqa_blue_light_100">#f8fafc</color>
+    <color name="hqa_blue_50">#3f80bf</color>
+    <color name="hqa_blue_75">#1f96f2</color>
+    <color name="hqa_blue_100">#336699</color>
+    <color name="hqa_blue_200">#2d5b89</color>
+    <color name="hqa_black_100">#333333</color>
+    <color name="hqa_black_200">#232323</color>
+    <color name="hqa_green_100">#50B796</color>
+    <color name="hqa_orange_100">#F8B509</color>
+    <color name="hqa_orange_200">#E2A404</color>
+    <color name="hqa_orange_300">#FD7356</color>
+    <color name="hqa_text_white">#FFFFFF</color>
+    <color name="hqa_text_black_100">@color/hqa_black_100</color>
+    <color name="hqa_text_black_200">@color/hqa_black_100</color>
+    <color name="hqa_text_grey_100">#A5AEB4</color>
+    <color name="hqa_text_grey_200">@color/hqa_grey_100</color>
+
+    <!-- Colors with hex opacity:
+            http://stackoverflow.com/questions/5445085/understanding-colors-in-android-6-characters/11019879#11019879 -->
+
+    <color name="grey_alpha_30">#4DAAAAAA</color>
+    <color name="grey_alpha_50">#80AAAAAA</color>
+
+
+    <!-- Third-party colors -->
+
+
+</resources>

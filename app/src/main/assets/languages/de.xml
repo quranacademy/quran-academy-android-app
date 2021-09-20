@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Qur'an Akademie</string>
+    <string name="check_network_dialog_message">Netzwerkfehler</string>
+    <string name="check_network_dialog_title">Netzwerkeinstellungen überprüfen</string>
+    <string name="btn_retry_label">Bitte versuchen Sie es noch einmal</string>
+    <string name="btn_cancel_title">Abbrechen</string>
+    <string name="btn_label_ok">Okay</string>
+    <string name="read_more_label">Mehr anzeigen</string>
+    <string name="read_less_label">Weniger anzeigen</string>
+    <string name="no_network_connection_title">Keine Netzwerkverbindung</string>
+    <string name="no_network_connection_message">Prüfen Sie Ihre Internetverbindung und versuchen Sie es erneut.</string>
+    <string name="download_dialog_title">Wird heruntergeladen&#8230;</string>
+    <string name="download_progress_dialog_message">Heruntergeladen %1$s/%2$s</string>
+    <string name="ligature_replacement_sas">Allah segne ihn und schenke ihm Frieden</string>
+    <string name="ligature_replacement_as">Friede sei mit ihm</string>
+    <string name="ligature_replacement_radu">möge Allah mit ihm zufrieden sein</string>
+    <string name="ligature_replacement_rada">möge Allah mit Ihr zufrieden sein</string>
+    <string name="ligature_replacement_radum">möge Allah mit Ihnen zufrieden sein</string>
+    <string name="ligature_replacement_raduma">möge Allah mit beiden zufrieden sein</string>
+    <string name="ligature_replacement_rahimahu">möge Allah sich seiner erbarmen</string>
+    <string name="ligature_replacement_rahimahum">möge Allah sich seiner erbarmen</string>
+    <string name="ligature_replacement_rahimahuma">möge Allah sich beider erbarmen</string>
+    <!-- Splash screen -->
+    <string name="select_language_title">Sprache auswählen</string>
+    <string name="btn_exit_label">Beenden</string>
+    <string name="data_migration_message">Bitte warten Sie und bereiten Sie sich vor</string>
+    <string name="quran_data_downloading_started">Der Download der Qur'an-Daten hat begonnen</string>
+    <string name="preparing_quran_data">Qur'an-Daten werden vorbereitet</string>
+    <string name="downloading_required_data_for_mushaf">Die für den Mushaf erforderlichen Daten werden heruntergeladen</string>
+    <!-- Intro screen -->
+    <string name="translations_intro_title">Qur'an Übersetzung auswählen</string>
+    <string name="tafseers_intro_title">Qur'anexegesen auswählen</string>
+    <string name="wbw_translations_intro_title">Wort-für-Wort-Übersetzungen auswählen</string>
+    <string name="intro_skip_button">Überspringen</string>
+    <string name="intro_next_button">Nächste</string>
+    <string name="intro_done_button">Fertig</string>
+    <!-- Main screen  -->
+    <string name="surahs">Suren</string>
+    <string name="bookmarks">Lesezeichen</string>
+    <string name="jump_to_ayah">Überspringen</string>
+    <string name="page_number">Seitenzahl</string>
+    <string name="settings">Einstellungen</string>
+    <string name="about_app">Über die App</string>
+    <string name="open_bookmark">Lesezeichen öffnen</string>
+    <string name="rate_app">App bewerten</string>
+    <string name="translation_update_notification_title">Update verfügbar</string>
+    <string name="translation_update_notification_details">Übersetzungs-Updates verfügbar</string>
+    <string name="select_reading_mode_title">Bitte Lesemodus wählen</string>
+    <string name="list_reading_mode">Liste</string>
+    <string name="mushaf_reading_mode">Mushaf</string>
+    <string name="max_quran_page_number_error_message">Maximale Seitenzahl 604</string>
+    <!--Search screen-->
+    <string name="search">Suche</string>
+    <string name="search_hint">Durchsuche den Qur'an</string>
+    <string name="no_results_label">Keine Ergebnisse für "%s" gefunden</string>
+    <string name="arabic_search_result_ayah_info">Sure %s, Aya %s</string>
+    <string name="translation_search_result_ayah_info">Sure %s, %s aya - %s</string>
+    <string name="search_message">Durchsuchen Sie den Qur'antext und die Übersetzungen.\n Mindestens drei Zeichen sind erforderlich.</string>
+    <!-- Surahs tab screen  -->
+    <string name="juz_title">Ǧuz %1$d</string>
+    <string name="surah_description_template">%s, %s</string>
+    <string name="page_number_template">Seite %s</string>
+    <plurals name="ayahs_count_label">
+        <item quantity="one">%1$d Aya</item>
+        <item quantity="other">%1$d Ayat</item>
+    </plurals>
+    <!-- Bookmarks tab screen  -->
+    <string name="recent_pages">Letzte Leseplätze</string>
+    <string name="ayah_bookmarks">Aya-Lesezeichen</string>
+    <string name="page_bookmarks">Seiten-Lesezeichen</string>
+    <string name="page_bookmark_template">%s, Seite %d</string>
+    <string name="bookmarks_not_found">Lesezeichen nicht gefunden</string>
+    <string name="delete_bookmark">Lesezeichen löschen</string>
+    <!-- Surahs details screen  -->
+    <string name="initial_setup">Ersteinrichtung</string>
+    <string name="translations_downloading_dialog_title">Übersetzung auswählen:</string>
+    <string name="open_text_settings_panel">Einstellungen öffnen</string>
+    <string name="switch_read_mode">Lesemodus wechseln</string>
+    <string name="open_next_surah">Nächste Sure</string>
+    <!-- Ayah details dialog  -->
+    <string name="translations_sharing_dialog_title">Übersetzung auswählen:</string>
+    <string name="share_quranarabic_text_option">Qur'an Arabische text</string>
+    <string name="copy_ayah">Die Aya kopieren</string>
+    <string name="share_ayah">Die Aya teilen</string>
+    <string name="ayah_text_copied">Aya-Text kopiert</string>
+    <!-- Mushaf screen  -->
+    <string name="download_page_bounds_data_title">Benötigte Dateien herunterladen?</string>
+    <string name="download_page_bounds_data_message">Damit die App ordnungsgemäß funktioniert, müssen wir einige Dateien herunterladen. Bitte überprüfen Sie Ihre Internetverbindung und klicken Sie auf „OK“.</string>
+    <string name="download_images_bundle_title">Alle Seiten herunterladen?</string>
+    <string name="download_images_bundle_message">Wenn Sie die App offline verwenden möchten, müssen wir alle Seitendateien gleichzeitig herunterladen. Wenn Sie das nicht tun, funktioniert die App möglicherweise nicht zuverlässig und benötigt eine Internetverbindung zum Lesen. Möchten Sie die benötigten Dateien jetzt herunterladen?
+    </string>
+    <!-- Mushaf page screen  -->
+    <string name="page_load_error_message">Fehler beim Laden der Seite. Bitte überprüfen Sie Ihre Internetverbindung</string>
+    <string name="bookmark_ayah">Lesezeichen für diese Aya erstellen</string>
+    <string name="translation_ayah">Aya Übersetzung/Tafsir</string>
+    <string name="play_ayah">Spielen ayah</string>
+    <string name="enabled_translations_not_found">Es gibt keine aktivierte Übersetzung</string>
+    <string name="open_translations_screen">Übersetzungen öffnen</string>
+    <!-- Quran text settings  -->
+    <string name="text_sample">Textbeispiel</string>
+    <string name="basmalah_text_translation">Im Namen Allahs, des Allerbarmers, des Barmherzigen.</string>
+    <string name="arabic_text_size">Größe des arabischen Textes</string>
+    <string name="translation_text_size">Größe des übersetzten Textes</string>
+    <string name="wbw_text_size">Wort-für-Wort-Textgröße</string>
+    <string name="arabic_font">Arabische Schrift</string>
+    <string name="translation_font">Übersetzungsschrift</string>
+    <string name="enable_arabic_text_centering">Arabischen Text zentrieren</string>
+    <string name="enable_translation_text_centering">Übersetzten Text zentrieren</string>
+    <!-- Audiomanager -->
+    <string name="audio_manager">Audio Manager</string>
+    <string name="remove_recitation_audio_title">Audio entfernen?</string>
+    <string name="remove_recitation_audio_message">Möchtest du %1$s entfernen?</string>
+    <string name="audio_downloading_title">Herunterladen des Audio&#8230;</string>
+    <string name="audio_downloading_message">Wird heruntergeladen %1$s (%2$s/%3$s)</string>
+    <string name="recitation_audio_info">%d Suren heruntergeladen (%s)</string>
+    <string name="surah_audio_info">%d/%d ayahs heruntergeladen (%s)</string>
+    <string name="audio_not_downloaded">Nicht heruntergeladen</string>
+    <!-- Audioplayer -->
+    <string name="ayah_number_option_value">%s, %d Aya</string>
+    <plurals name="repetition_count_option_value">
+        <item quantity="one">%s Mal</item>
+        <item quantity="other">%s Males</item>
+    </plurals>
+    <string name="play">Abspielen</string>
+    <string name="stop">Stopp</string>
+    <string name="pause">Pausieren</string>
+    <string name="next">Nächste Aya abspielen</string>
+    <string name="prev">Vorherige Aya abspielen</string>
+    <string name="now_playing">Läuft gerade</string>
+    <string name="ayah_playback_title">Sure %s, Aya %d</string>
+    <string name="ayah_is_download_message">Herunterladen der Aya&#8230;</string>
+    <string name="audio_download_network_error_message">Download-Fehler: überprüfen Sie bitte die Netzwerk-Verbindung</string>
+    <string name="ayah_download_incorrect_url_error_message">Download-Fehler: Audio von diesem Rezitator kann nicht heruntergeladen werden</string>
+    <string name="unknown_playback_error_message">Unbekannter Fehler bei Wiedergabe</string>
+    <string name="ayah_audio_file_not_found_error_message">Audio-Datei von Aya %d/%d nicht gefunden</string>
+    <string name="playback_parameters">Wiedergabeparameter</string>
+    <string name="reciter">Rezitator</string>
+    <string name="start_playback_ayah_label">Ab:</string>
+    <string name="end_playback_ayah_label">Bis:</string>
+    <string name="playback_range_title">Wiedergabebereich</string>
+    <string name="playback_repetitions_title">Wiederholungen</string>
+    <string name="playback_range_repetitions_count_title">Bereich: Wiederholung</string>
+    <string name="playback_ayah_repetitions_count_title">Jede Aya wiederholen:</string>
+    <string name="play_ayah_once">Einmalig</string>
+    <string name="play_ayah_infinitely">Immer</string>
+    <string name="permission_needed_title">Berechtigung erforderlich</string>
+    <string name="surah_selection_title">Sure:</string>
+    <string name="ayah_selection_title">Aya:</string>
+    <string name="external_permission_not_needed_message">Um die Qur'an-Audio herunterzuladen, ist der Zugriff auf einen externen Gerätespeicher erforderlich.</string>
+    <string name="external_permission_not_granted_message">Um eine Qur'an-Audio herunterzuladen, ist der Zugriff auf einen externen Gerätespeicher erforderlich. Bitte klicken Sie auf „Einstellungen“ und erlauben Sie der App den Zugriff auf den externen Speicher.</string>
+    <string name="recitations_loading_network_error_message">Fehler beim Download der Rezitatoren-Liste. Bitte überprüfen Sie Ihre Internetverbindung.</string>
+    <!-- Memorization screens  -->
+    <!-- Settings screen  -->
+    <string name="prefs_appearance_title">Darstellung</string>
+    <string name="prefs_reading_title">Lesen</string>
+    <string name="prefs_language_title">Sprache</string>
+    <string name="prefs_app_theme_title">Design</string>
+    <string name="prefs_mushaf_theme_title">Mushaf Design</string>
+    <string name="prefs_quran_text_settings_title">Qur'an-Text-Einstellungen</string>
+    <string name="translations">Übersetzungen</string>
+    <string name="tafseers">Tafsir</string>
+    <string name="word_by_word">Wort für Wort</string>
+    <string name="prefs_quran_title">Qur'an</string>
+    <string name="prefs_translations_title">Übersetzungen</string>
+    <string name="prefs_translations_summary">Übersetzungen herunterladen und verwalten</string>
+    <string name="prefs_tafseers_title">Tafsir</string>
+    <string name="prefs_tafseers_summary">Tafsir herunterladen und verwalten</string>
+    <string name="prefs_translations_ordering_title">Übersetzungen sortieren</string>
+    <string name="prefs_word_by_word_translation_enabled_title">Wort-für-Wort-Übersetzung zulassen</string>
+    <string name="prefs_word_by_word_translation_enabled_summary">Wort-für-Wort-Übersetzung des Qur'an zeigen</string>
+    <string name="prefs_word_by_word_translation_title">Wort-für-Wort-Sprache</string>
+    <string name="prefs_tajweeed_enabled_summary">Taǧwīd-Hervorhebung aktivieren</string>
+    <string name="prefs_tajweeed_enabled_title">Taǧwīd aktivieren</string>
+    <string name="prefs_word_by_word_translation_summary">Wort-für-Wort-Übersetzungen herunterladen</string>
+    <string name="prefs_translations_update_checking_enabled_title">Auf Updates prüfen</string>
+    <string name="prefs_translations_update_checking_enabled_summary">Überprüfung auf Updates aktivieren</string>
+    <string name="app_theme_light">Hell</string>
+    <string name="app_theme_brown">Braun</string>
+    <string name="app_theme_dark">Dunkel</string>
+    <string name="prefs_quran_arabic_text_size_title">Größe des arabischen Textes</string>
+    <string name="prefs_quran_translation_text_size_title">Größe des übersetzten Textes</string>
+    <string name="prefs_open_last_reading_place_on_start_title">Lesebildschirm beim Start öffnen</string>
+    <string name="prefs_open_last_reading_place_on_start_summary">Letzten Leseort beim Start öffnen</string>
+    <string name="prefs_others_title">Sonstiges</string>
+    <string name="prefs_download_all_mushaf_images_title">Mushaf-Dateien herunterladen</string>
+    <string name="prefs_download_all_mushaf_images_summary">Alle Mushaf-Dateien herunterladen</string>
+    <string name="images_bundle_downloading_finished_message">Mushaf-Dateien erfolgreich heruntergeladen</string>
+    <!-- Languages manager screen -->
+    <string name="language_is_removed_message">Sprache erfolgreich entfernt</string>
+    <!--Translations manager screen -->
+    <string name="downloaded_category_label">Heruntergeladen</string>
+    <string name="available_category_label">Bereit zum Download</string>
+    <string name="remove_translation_title">Übersetzung löschen?</string>
+    <string name="remove_translation_message">Sind Sie sicher, dass Sie %1$s entfernen möchten?</string>
+    <string name="btn_remove_title">Entfernen</string>
+    <string name="update_available">Update verfügbar</string>
+    <string name="translations_list_empty">Übersetzungen nicht gefunden</string>
+    <string name="show_in_list_title">Auf der Liste zeigen</string>
+    <string name="show_in_dialog_title">Im Dialogfeld zeigen</string>
+    <!--Tajweed rules screen  -->
+    <string name="tajweed_rules">Taǧwīd-Regeln</string>
+    <string name="taj_rule_ghunna">Ġunnah (Nasallaut)</string>
+    <string name="taj_rule_qalqala">Qalqalah (Nachhallen)</string>
+    <string name="taj_rule_iqlab">Iqlāb (Umwandlung)</string>
+    <string name="taj_rule_idgham">Idġām (Verschmelzen von 2 Lauten)</string>
+    <string name="taj_rule_idgham_without_ghunna">Idġām ohne Ġunnah</string>
+    <string name="taj_rule_ikhfa">Iḫfāʾ (Bedecken)</string>
+    <string name="stopping_sign_must_stop">Man muss stoppen</string>
+    <string name="stopping_sign_better_to_stop">Besser wenn man stoppt</string>
+    <string name="stopping_sign_pause_at_one">Bei einem von beiden pausieren</string>
+    <string name="stopping_sign_a_slight_pause">Eine kurze Pause</string>
+    <string name="stopping_sign_stop_or_continue">Stoppen oder fortfahren</string>
+    <string name="stopping_sign_better_to_continue">Besser wenn man fortfährt</string>
+    <string name="stopping_sign_dont_stop">Nicht stoppen</string>
+    <!--Update needed screen  -->
+    <string name="update_needed_title">App-Update</string>
+    <string name="update_needed_message">Diese Version der App ist veraltet. Bitte besuchen Sie den Google Play Store, um die neueste Version herunterzuladen.</string>
+    <string name="update_app_button_title">Download</string>
+    <!-- About screen  -->
+    <string name="about_title">Über das Projekt</string>
+    <string name="about_feedback">Feedback geben</string>
+    <string name="send_bug_report">Fehlerbericht senden</string>
+    <string name="share_app">App teilen</string>
+    <string name="translations_copyright">Wichtige Information</string>
+    <string name="translations_copyright_title_message"><![CDATA[Alle Rechte vorbehalten. Kein Teil dieser Übersetzungen der Bedeutungen des Qur'an darf in irgendeiner Form übersetzt, vervielfältigt, in Suchmaschinen gespeichert oder auf irgendeine Weise oder durch irgendwelche Mittel übertragen werden, sei es elektronisch, mechanisch, durch Fotokopieren, Umschreiben, Abrufen oder anderweitig, es sei denn, es liegt eine schriftliche Genehmigung des Copyright-Inhabers vor. Wenn Sie Fragen haben, schreiben Sie bitte eine E-Mail an <a href="mailto:hqaweb@gmail.com">hqaweb@gmail.com</a>
+        <br/><br/>
+        Keine Qur'an-Übersetzung vermittelt die Bedeutung dieses Buches in vollem Umfang und kann als Ersatz verwendet werden. Um ein tieferes Verständnis der Bedeutung des Qur'an zu erlangen, ist es erforderlich, sich mit der Sunna des Gesandten Allahs (Friede und Segen seien mit ihm) und klassischen Tafsir-Werken auf Arabisch zu beschäftigen.
+        <br/><br/>
+        Wir haben versucht, eine Liste der akzeptabelsten Übersetzungen der Bedeutungen und Interpretationen des Qur'an zu erstellen. In Anbetracht möglicher menschlicher oder technischer Fehler können wir jedoch keine Garantie für die absolute Richtigkeit und Vollständigkeit der bereitgestellten Informationen übernehmen und sind nicht verantwortlich für etwaige Fehler.
+        <br/><br/>
+        Möge Allah es Ihnen leicht machen, den Qur'an zu studieren.]]></string>
+    <string name="google_play_app_not_found_error_message">Google Play nicht gefunden</string>
+    <!-- Rate app dialog  -->
+    <string name="msg_please_rate_app">Bitte bewerten Sie die App, um uns zu helfen, besser zu werden!</string>
+    <string name="btn_label_rate_later">Später bewerten</string>
+    <string name="leave_feedback_title">Feedback hinterlassen</string>
+    <string name="bad_rating_feedback_hint_message">Bitte beschreiben Sie, was Ihnen an unserer App nicht gefällt!</string>
+    <string name="please_rate_us_title">Wow, vielen Dank!</string>
+    <string name="please_rate_us_message">Bitte bewerten Sie uns auch auf Google Play</string>
+    <string name="incorrect_email_message">Geben Sie bitte Ihre E-Mail-Adresse ein</string>
+    <string name="empty_feedback_message">Das Feedback-Feld darf nicht leer sein</string>
+    <string name="btn_label_send">Absenden</string>
+    <string name="feedback_sent_message">Feedback gesendet</string>
+    <string name="email_hint_message">E-Mail (nicht erforderlich)</string>
+    <string name="leave_feedback_hint_message">Bitte beschreiben Sie, was Sie über unsere Anwendung denken!</string>
+    <!--Error messages todo-->
+    <string name="not_enough_free_space_on_disk_message">Download fehlgeschlagen. Es ist nicht genug Speicherplatz verfügbar.</string>
+    <string name="ssl_error_check_device_time_message">Fehler beim Verbinden mit dem Server. Bitte überprüfen Sie die Zeit auf Ihrem Gerät.</string>
+</resources>

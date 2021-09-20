@@ -1,0 +1,110 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/windowBackground">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/playerOptionsContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/playbackOptionsTitle"
+            style="@style/AppTheme.PlayerOptions.GroupTitle"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/playback_parameters"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/reciterName"
+            style="@style/AppTheme.OptionLabel"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:text="@string/reciter"
+            app:layout_constraintBottom_toBottomOf="@+id/reciterValue"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/reciterValue" />
+
+        <TextView
+            android:id="@+id/reciterValue"
+            style="@style/AppTheme.OptionValue"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:paddingBottom="5dp"
+            android:text="Мишари Рашид"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/playbackOptionsTitle" />
+
+        <CheckBox
+            android:id="@+id/autoScrollEnabledCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="@string/enable_player_auto_scroll_label"
+            android:textColor="?android:attr/textColorSecondary"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/reciterValue" />
+
+        <TextView
+            android:id="@+id/ayahsRangeTitle"
+            style="@style/AppTheme.PlayerOptions.GroupTitle"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/playback_repetitions_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/autoScrollEnabledCheckbox" />
+
+        <TextView
+            android:id="@+id/rangeRepetitionsTitle"
+            style="@style/AppTheme.OptionLabel"
+            android:layout_marginStart="24dp"
+            android:text="@string/playback_range_repetitions_count_title"
+            app:layout_constraintBottom_toBottomOf="@+id/rangeRepetitionsCountValue"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/rangeRepetitionsCountValue"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/rangeRepetitionsCountValue"
+            style="@style/AppTheme.OptionValue"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:text="1 раз"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ayahsRangeTitle" />
+
+
+        <TextView
+            android:id="@+id/singleAyahRepetitionsLabel"
+            style="@style/AppTheme.OptionLabel"
+            android:layout_marginStart="24dp"
+            android:text="@string/playback_ayah_repetitions_count_title"
+            app:layout_constraintBottom_toBottomOf="@+id/singleAyahRepetitionsCountValue"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/singleAyahRepetitionsCountValue" />
+
+        <TextView
+            android:id="@+id/singleAyahRepetitionsCountValue"
+            style="@style/AppTheme.OptionValue"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="16dp"
+            android:text="3 раза"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rangeRepetitionsCountValue" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.core.widget.NestedScrollView>

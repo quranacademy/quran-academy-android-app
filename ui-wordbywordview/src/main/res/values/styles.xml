@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- tooltip custom style -->
+
+    <style name="AyahTooltipStyle" parent="ToolTipLayoutDefaultStyle">
+        <item name="ttlm_padding">16dp</item>
+        <item name="ttlm_backgroundColor">?attr/colorAccent</item>
+        <item name="ttlm_cornerRadius">6dp</item>
+        <item name="ttlm_arrowRatio">1.2</item>
+        <item name="android:textAppearance">@style/ToolTipAltTextStyle</item>
+    </style>
+
+    <style name="ToolTipAltTextStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kur'an-ı Kerim Akademisi</string>
+    <string name="check_network_dialog_message">Bağlantı hatası</string>
+    <string name="check_network_dialog_title">Lütfen ağ bağlantısını kontrol edin</string>
+    <string name="btn_retry_label">Yeniden dene</string>
+    <string name="btn_cancel_title">İptal</string>
+    <string name="btn_label_ok">OK</string>
+    <string name="read_more_label">daha fazla göster</string>
+    <string name="read_less_label">daha az göster</string>
+    <string name="no_network_connection_title">Ağ bağlantısı yok</string>
+    <string name="no_network_connection_message">Ağ bağlantısını kontrol edip tekrar deneyin.</string>
+    <string name="download_dialog_title">İndiriliyor&#8230;</string>
+    <string name="download_progress_dialog_message">İndirilen %1$s/%2$s</string>
+    <string name="ligature_replacement_sas">sallallahu aleyhi ve sellem</string>
+    <string name="ligature_replacement_as">selamet onun üzerine olsun</string>
+    <string name="ligature_replacement_radu">Radiyallahu anh</string>
+    <string name="ligature_replacement_rada">Radiyallah anha</string>
+    <string name="ligature_replacement_radum">Radiyallahu anhum</string>
+    <string name="ligature_replacement_raduma">Radiyallahu anhuma</string>
+    <string name="ligature_replacement_rahimahu">Rahmetullahi aleyh</string>
+    <string name="ligature_replacement_rahimahum">Rahmetullahi aleyhum</string>
+    <string name="ligature_replacement_rahimahuma">Rahmetullahi aleyhuma</string>
+    <!-- Splash screen -->
+    <string name="select_language_title">Dil seçin</string>
+    <string name="btn_exit_label">Çıkış</string>
+    <string name="data_migration_message">Lütfen bekleyin, hazırlanır</string>
+    <string name="quran_data_downloading_started">Kur'an veri indirmeye başladı</string>
+    <string name="preparing_quran_data">Kur'an veri hazırlanıyor</string>
+    <string name="downloading_required_data_for_mushaf">Mushaf için gerekli veri indiriyor</string>
+    <!-- Intro screen -->
+    <string name="translations_intro_title">Kur'an çeviriler seçin</string>
+    <string name="tafseers_intro_title">Kur'an tefsirler seçin</string>
+    <string name="wbw_translations_intro_title">Kelime kelime çeviri seçin</string>
+    <string name="intro_skip_button">Atla</string>
+    <string name="intro_next_button">Sonraki</string>
+    <string name="intro_done_button">Bitti</string>
+    <!-- Main screen  -->
+    <string name="surahs">Sureler</string>
+    <string name="bookmarks">Yer İmlerİ</string>
+    <string name="jump_to_ayah">Git</string>
+    <string name="page_number">Sayfa numarası</string>
+    <string name="settings">Ayarlar</string>
+    <string name="about_app">Uygulama hakkında</string>
+    <string name="open_bookmark">Yer imlerini aç</string>
+    <string name="rate_app">Uygulamayı değerlendir</string>
+    <string name="translation_update_notification_title">Göncelleme mevcut</string>
+    <string name="translation_update_notification_details">Çeviri güncellemeler mevcut</string>
+    <string name="select_reading_mode_title">Lütfen okuma modunu seçiniz</string>
+    <string name="list_reading_mode">Liste</string>
+    <string name="mushaf_reading_mode">Mushaf</string>
+    <string name="max_quran_page_number_error_message">Maksimum sayfa numarası 604</string>
+    <!--Search screen-->
+    <string name="search">Arama</string>
+    <string name="search_hint">Kur'an-ı Kerimde ara</string>
+    <string name="no_results_label">"%s" için hiçbir sonuç bulunamadı</string>
+    <string name="arabic_search_result_ayah_info">Sure %s, ayet %s</string>
+    <string name="translation_search_result_ayah_info">Sure %s, %s ayet - %s</string>
+    <string name="search_results_count_label">Sonuçlar: %s</string>
+    <string name="search_message">Kur'an-ı Kerim metninde ve çevirilerde arama yapın. \nEn az üç karakter gerekir.</string>
+    <!-- Surahs tab screen  -->
+    <string name="juz_title">Cuz %1$d</string>
+    <string name="surah_description_template">%s, %s</string>
+    <string name="page_number_template">Sayfa %s</string>
+    <plurals name="ayahs_count_label">
+        <item quantity="one">%1$d ayet</item>
+        <item quantity="other">%1$d ayet</item>
+    </plurals>
+    <!-- Bookmarks tab screen  -->
+    <string name="recent_pages">Son okuma yerleri</string>
+    <string name="ayah_bookmarks">Ayet yer imleri</string>
+    <string name="page_bookmarks">Sayfa imleri</string>
+    <string name="page_bookmark_template">%s, sayfa %d</string>
+    <string name="bookmarks_not_found">Yer imleri bulunamadı</string>
+    <string name="delete_bookmark">Yer imini sil</string>
+    <!-- Surahs details screen  -->
+    <string name="initial_setup">İlk kurulum</string>
+    <string name="translations_downloading_dialog_title">Çeviriler seçin:</string>
+    <string name="open_text_settings_panel">Ayarlar paneli aç</string>
+    <string name="switch_read_mode">Okuma modunu seç</string>
+    <string name="open_next_surah">Sonraki sure</string>
+    <!-- Ayah details dialog  -->
+    <string name="translations_sharing_dialog_title">Çeviriler seçin:</string>
+    <string name="share_quranarabic_text_option">Kur'an arapça metin</string>
+    <string name="copy_ayah">Ayeti kopyala</string>
+    <string name="share_ayah">Ayeti paylaş</string>
+    <string name="ayah_text_copied">Ayet metini kopyalandı</string>
+    <!-- Mushaf screen  -->
+    <string name="download_page_bounds_data_title">Gerekli Dosyalari yükleyeyim mi?</string>
+    <string name="download_page_bounds_data_message">Uygulamanın düzgün çalışması için bazı dosyaları indirmemiz gerekiyor.
+        Lütfen İnternet bağlantınızı kontrol edin ve "Tamam" ı tıklayın.</string>
+    <string name="download_images_bundle_title">Tüm sayfalar indirilsin mi?</string>
+    <string name="download_images_bundle_message">Uygulamayı çevrimdışı kullanmak istiyorsanız,
+        tüm sayfa dosyalarını bir kerede indirmemiz gerekir. Bunu şimdi
+        yapmazsanız, uygulama güvenilir bir şekilde çalışmayabilir ve okumak
+        için İnternet bağlantısı gerektirecektir. Gerekli dosyaları şimdi
+        indirmek ister misiniz?    </string>
+    <!-- Mushaf page screen  -->
+    <string name="page_load_error_message">Sayfa yükleme hatası. Ağ kontrol ediniz</string>
+    <string name="bookmark_ayah">Bu sayfayı favorilere ekle</string>
+    <string name="translation_ayah">Ayet çeviri/tefsir</string>
+    <string name="play_ayah">Ayeti oynat</string>
+    <string name="enabled_translations_not_found">Etkin çeviri yok</string>
+    <string name="open_translations_screen">Çevirileri açın</string>
+    <!-- Quran text settings  -->
+    <string name="text_sample">Metin örneği</string>
+    <string name="basmalah_text_translation">Rahman ve Rahîm olan Allah'ın adıyla.</string>
+    <string name="arabic_text_size">Arapça yazı tipi boyutu</string>
+    <string name="translation_text_size">Çeviri yazı tipi boyutu</string>
+    <string name="wbw_text_size">Kelime kelime metin boyutu</string>
+    <string name="arabic_font">Arapça yazı tipi</string>
+    <string name="translation_font">Çeviri yazı tipi</string>
+    <string name="enable_arabic_text_centering">Arapça metni merkeze hizala</string>
+    <string name="enable_translation_text_centering">Çeviri metni merkeze hizala</string>
+    <!-- Audiomanager -->
+    <string name="audio_manager">Ses Yöneticisi</string>
+    <string name="remove_recitation_audio_title">Ses kaldırılsın mı?</string>
+    <string name="remove_recitation_audio_message">%1$s kaldırmak istiyor musunuz?</string>
+    <string name="audio_downloading_title">Ses&#8230; indiriliyor</string>
+    <string name="audio_downloading_message">%1$s (%2$s/%3$s) indiriliyor</string>
+    <string name="recitation_audio_info">%d sureler indirildi (%s)</string>
+    <string name="surah_audio_info">%d/%d ayet indirildi (%s)</string>
+    <string name="audio_not_downloaded">İndirilmedi</string>
+    <!-- Audioplayer -->
+    <string name="ayah_number_option_value">%s, %d ayet</string>
+    <plurals name="repetition_count_option_value">
+        <item quantity="one">%s kere</item>
+        <item quantity="other">%s kere</item>
+    </plurals>
+    <string name="play">Çal</string>
+    <string name="stop">Durdur</string>
+    <string name="pause">Duraklat</string>
+    <string name="next">Sıradaki ayeti oynat</string>
+    <string name="prev">Önceki ayeti oynat</string>
+    <string name="now_playing">Şimdi oynatılıyor</string>
+    <string name="ayah_playback_title">Sure %s, ayet %d</string>
+    <string name="ayah_is_download_message">Ayet&#8230; indiriliyor</string>
+    <string name="audio_download_network_error_message">İndirme hatası: lütfen ağ bağlantısını kontrol edin</string>
+    <string name="ayah_download_incorrect_url_error_message">İndirme hatası: bu okuyucu için ses indirilemiyor</string>
+    <string name="unknown_playback_error_message">Bilinmeyen oynatma hatası</string>
+    <string name="ayah_audio_file_not_found_error_message">Atey %d/%d ses dosyası bulunamadı</string>
+    <string name="playback_parameters">Oynatma ayarları</string>
+    <string name="reciter">Okuyucu</string>
+    <string name="start_playback_ayah_label">Itibaren:</string>
+    <string name="end_playback_ayah_label">Bitiş:</string>
+    <string name="playback_range_title">Oynatma aralığı</string>
+    <string name="enable_player_auto_scroll_label">Otomatik kaydırmayı etkinleşdir</string>
+    <string name="highlight_words_label">Kelimeleri vurgula</string>
+    <string name="btn_download_label">İndir</string>
+    <string name="playback_repetitions_title">Tekrarlamalar</string>
+    <string name="playback_range_repetitions_count_title">Aralık tekrarı:</string>
+    <string name="playback_ayah_repetitions_count_title">Her ayeti tekrarla:</string>
+    <string name="play_ayah_once">Bir kez</string>
+    <string name="play_ayah_infinitely">Sonsuz</string>
+    <string name="permission_needed_title">İzin gerekli</string>
+    <string name="surah_selection_title">Sure:</string>
+    <string name="ayah_selection_title">Ayet:</string>
+    <string name="external_permission_not_needed_message">Kur'an-ı Kerim sesini indirmek için harici cihaz hafızasına erişim gereklidir.</string>
+    <string name="external_permission_not_granted_message">Kur'an-ı Kerim sesini indirmek için harici cihaz hafızasına erişim gereklidir. Lütfen ayarlar ekranını açın ve uygulamanın harici belleğe erişmesine izin verin.</string>
+    <string name="recitations_loading_network_error_message">Okuyucular listesi indirme hatası. Lütfen ağ bağlantınızı kontrol edin</string>
+    <!-- Memorization screens  -->
+    <string name="start_label">Başlat</string>
+    <string name="page_memorization_mode">Sayfa</string>
+    <string name="surah_memorization_mode">Sure</string>
+    <string name="btn_start_memorization_again_label">Yeniden</string>
+    <string name="btn_finish_label">Bitir</string>
+    <!-- Settings screen  -->
+    <string name="prefs_appearance_title">Görünüm</string>
+    <string name="prefs_reading_title">Okuma</string>
+    <string name="prefs_language_title">Dil</string>
+    <string name="prefs_app_theme_title">Tema</string>
+    <string name="prefs_mushaf_theme_title">Mushaf teması</string>
+    <string name="prefs_quran_text_settings_title">Kur'an metin ayarları</string>
+    <string name="translations">Çeviriler</string>
+    <string name="tafseers">Tefsirler</string>
+    <string name="word_by_word">Kelime kelime</string>
+    <string name="prefs_quran_title">Kuran-ı Kerim</string>
+    <string name="prefs_translations_title">Çeviriler</string>
+    <string name="prefs_translations_summary">Çevirileri indirin ve yönetin</string>
+    <string name="prefs_tafseers_title">Tefsirler</string>
+    <string name="prefs_tafseers_summary">Tefserleri indirin ve yönetin</string>
+    <string name="prefs_translations_ordering_title">Çeviri sıralaması</string>
+    <string name="prefs_word_by_word_translation_enabled_title">Kelime Kelime etkinleştir</string>
+    <string name="prefs_word_by_word_translation_enabled_summary">Kelime kelime Kur'an çevirisini göster</string>
+    <string name="prefs_word_by_word_translation_title">Kelime Kelime dil</string>
+    <string name="prefs_tajweeed_enabled_summary">Tecvid vurgulamayı etkinleştir</string>
+    <string name="prefs_tajweeed_enabled_title">Tecvidi etkinleştir</string>
+    <string name="prefs_word_by_word_translation_summary">Kelime çevirileri indir</string>
+    <string name="prefs_translations_update_checking_enabled_title">Güncelle</string>
+    <string name="prefs_translations_update_checking_enabled_summary">Çeviri güncellemelerini etkinleştir</string>
+    <string name="app_theme_light">Açık</string>
+    <string name="app_theme_brown">Kahverengi</string>
+    <string name="app_theme_dark">Koyu</string>
+    <string name="prefs_quran_arabic_text_size_title">Arapça yazı tipi boyutu</string>
+    <string name="prefs_quran_translation_text_size_title">Çeviri yazı tipi boyutu</string>
+    <string name="prefs_open_last_reading_place_on_start_title">Başlangıçta okuma ekranını aç</string>
+    <string name="prefs_open_last_reading_place_on_start_summary">Başlangıçta son okuma yerini aç</string>
+    <string name="prefs_others_title">Diğerleri</string>
+    <string name="prefs_download_all_mushaf_images_title">Tüm mushaf dosyaları indir</string>
+    <string name="prefs_download_all_mushaf_images_summary">Tüm mushaf dosyaları indir</string>
+    <string name="images_bundle_downloading_finished_message">Mushaf dosyaları başarıyla indirildi</string>
+    <!-- Languages manager screen -->
+    <string name="language_is_removed_message">Dil başarıyla kaldırıldı</string>
+    <!--Translations manager screen -->
+    <string name="downloaded_category_label">İndirilen</string>
+    <string name="available_category_label">Indirilebilir</string>
+    <string name="remove_translation_title">Çeviri kaldırılsın mı?</string>
+    <string name="remove_translation_message">%1$s kaldırmak istediğinizden emin misiniz?</string>
+    <string name="btn_remove_title">Kaldır</string>
+    <string name="update_available">Göncelleme mevcut</string>
+    <string name="translations_list_empty">Çeviriler bulunamadı</string>
+    <string name="show_in_list_title">Listede göster</string>
+    <string name="show_in_dialog_title">İletişim kutusunda göster</string>
+    <!--Tajweed rules screen  -->
+    <string name="tajweed_rules">Tecvid Kuralları</string>
+    <string name="taj_rule_ghunna">Ğunne (genizden)</string>
+    <string name="taj_rule_qalqala">Kalkale (yankılamak)</string>
+    <string name="taj_rule_iqlab">Iqlab (Assimilation/Flipping)</string>
+    <string name="taj_rule_idgham">İdğam (genizden söylemek/birleştirme)</string>
+    <string name="taj_rule_idgham_without_ghunna">Ğunnesiz idğam</string>
+    <string name="taj_rule_ikhfa">İhfa (yankı/gizleme)</string>
+    <string name="stopping_sign_must_stop">Durmalı</string>
+    <string name="stopping_sign_better_to_stop">Durmak daha iyi</string>
+    <string name="stopping_sign_pause_at_one">Birinde duraklat</string>
+    <string name="stopping_sign_a_slight_pause">Hafif bir duraklama</string>
+    <string name="stopping_sign_stop_or_continue">Dur veya Devam et</string>
+    <string name="stopping_sign_better_to_continue">Devam etmek daha iyi</string>
+    <string name="stopping_sign_dont_stop">Durma</string>
+    <!--Update needed screen  -->
+    <string name="update_needed_title">Uygulama güncellemesi</string>
+    <string name="update_needed_message">Uygulamanın bu sürümü eski haline geldi. En son sürümü indirmek için lütfen Google Play'e gidin.</string>
+    <string name="update_app_button_title">İndir</string>
+    <!-- About screen  -->
+    <string name="about_title">Hakkımızda</string>
+    <string name="about_feedback">Yorum yaz</string>
+    <string name="send_bug_report">Hata raporu gönder</string>
+    <string name="share_app">Uygulamayı paylaş</string>
+    <string name="translations_copyright">Önemli bilgi</string>
+    <string name="translations_copyright_title_message"><![CDATA[Tüm hakları saklıdır. Bu anlam çevirilerinin hiçbir kısmı çevrilemez, çoğaltılamaz, bir arama motorunda saklanamaz veya herhangi bir şekilde veya herhangi bir yolla, elektronik, mekanik, fotokopi, yeniden yazma, geri alma veya başka şekillerde iletilemez, telif hakkı sahibinden yazılı izin alınmadıkça. Herhangi bir sorunuz için, lütfen <a href="mailto:hqaweb@gmail.com">hqaweb@gmail.com</a> adresine e-posta gönderin.
+        <br/><br/>
+        Kuran'ın hiçbir çevirisi, bu kitabın anlamını tam olarak iletmez ve ikame olarak kullanılamaz. Kur'an'ın anlamını daha iyi kavramak için, Resulullah'ın sünnetine (sallallahu aleyhi ve sellem) ve Arapçada klasik tefsirlere başvurmak gerekir.
+        <br/><br/>
+        Kuran'ın anlamlarının ve yorumlarının en kabul edilebilir çevirilerinin bir listesini sunmaya çalıştık, ancak olası insan veya teknik hataları göz önünde bulundurarak, verilen bilgilerin mutlak doğruluğunu ve eksiksizliğini garanti edemeyiz ve herhangi bir hatadan sorumlu değiliz.
+        <br/><br/>
+        Allah, sana Kuran'ı oğrenmeyi kolaylaştırsın.]]></string>
+    <string name="google_play_app_not_found_error_message">Google Play bulunamadı</string>
+    <!-- Rate app dialog  -->
+    <string name="msg_please_rate_app">Bize daha iyi olmamız için uygulamayı değerlendiriniz!</string>
+    <string name="btn_label_rate_later">Sonra oy ver</string>
+    <string name="leave_feedback_title">Geri bildirim bırak</string>
+    <string name="bad_rating_feedback_hint_message">Lütfen uygulamamızla ilgili beğenmediğinizi açıklayın?</string>
+    <string name="please_rate_us_title">Vay canına, teşekkürler!</string>
+    <string name="please_rate_us_message">Lütfen bizi Google Play'de aynı şekilde değerlendirin</string>
+    <string name="incorrect_email_message">Lütfen geçerli bir eposta girin</string>
+    <string name="empty_feedback_message">Geri bildirim alanı boş olamaz</string>
+    <string name="btn_label_send">Gönder</string>
+    <string name="feedback_sent_message">Geri bildirim gönderildi</string>
+    <string name="email_hint_message">E-posta (gerekli değil)</string>
+    <string name="leave_feedback_hint_message">Bizim uygulama hakkında ne düşündüğünüzü açıklayın?</string>
+    <!--Error messages todo-->
+    <string name="not_enough_free_space_on_disk_message">Yükleme işlemi başarısız oldu. Yeterli disk alanı yok.</string>
+    <string name="ssl_error_check_device_time_message">Sunucuya bağlanırken hata. Cihazınızı kontrol edin lütfen.</string>
+</resources>

@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.quranacademy.quran.settings">
+
+    <application>
+
+        <activity android:name=".presentation.ui.SettingsActivity" />
+
+        <activity android:name=".presentation.ui.mushaftype.MushafTypeSelectionActivity" />
+
+    </application>
+
+</manifest>

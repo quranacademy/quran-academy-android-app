@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="status_bar_height">0dp</dimen>
+    <dimen name="toolbar_height">56dp</dimen>
+
+    <!--Snackbar-->
+
+    <dimen name="default_snackbar_margin">16dp</dimen>
+    <dimen name="default_snackbar_height">48dp</dimen>
+
+</resources>

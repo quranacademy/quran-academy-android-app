@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/tajweedRuleHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        tools:background="#ff0000">
+
+        <TextView
+            android:id="@+id/tajweedRuleName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            app:fontPath="@string/font_roboto_regular"
+            tools:text="Идгам" />
+
+        <com.ohoussein.playpause.PlayPauseView
+            android:id="@+id/playPauseTajweedSampleButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right|center_vertical"
+            app:fill_color="#fafafa"
+            app:pause_bg="@color/transparent"
+            app:play_bg="@color/transparent" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/tajweedRuleDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:textColor="?android:attr/textColorPrimary"
+            tools:text="Зна­чок «вакф аль-ла­зим» вы­нуж­да­ет чте­ца сде­лать в этом мес­те ос­та­нов­ку. Сло­во «ла­зим» оз­на­ча­ет обя­зан­ность, не­об­хо­димость сде­лать лю­бой це­ной. Пауза именно в этом мес­те так важ­на, по­тому что ее от­сутс­твие ис­ка­зит весь смысл пред­ло­жения." />
+
+        <com.mta.tehreer.widget.TLabel
+            android:id="@+id/tajweedSampleLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            app:textColor="?android:attr/textColorPrimary"
+            app:textSize="24sp"
+            app:typeface="@string/font_uthmanic_hafs_old" />
+
+    </LinearLayout>
+
+</LinearLayout>

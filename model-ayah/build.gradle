@@ -1,0 +1,8 @@
+apply from: '../build_scripts/modules-config.gradle'
+
+dependencies {
+    api libraries.kotlinStdJdk
+
+    api project(':model-translation')
+    api project(':model-wordbyword')
+}

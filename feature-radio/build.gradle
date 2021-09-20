@@ -1,0 +1,21 @@
+apply from: '../build_scripts/modules-config.gradle'
+
+dependencies {
+    implementation project(':core')
+    implementation project(':core-ui')
+    implementation project(':ui-preferences')
+
+    implementation "androidx.media:media:1.1.0"
+    implementation libraries.exoPlayer
+    implementation "com.google.android.exoplayer:exoplayer-hls:2.11.7"
+    implementation "com.google.android.exoplayer:exoplayer-dash:2.11.7"
+
+    implementation project(':core-permissions')
+    implementation project(':core-network-api')
+
+    implementation 'com.getbase:floatingactionbutton:1.10.1'
+    implementation 'com.github.clans:fab:1.6.4'
+
+    kapt libraries.moxyCompiler
+    kapt libraries.toothpickCompiler
+}

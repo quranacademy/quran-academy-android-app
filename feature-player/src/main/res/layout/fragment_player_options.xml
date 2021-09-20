@@ -1,0 +1,252 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/windowBackground">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:id="@+id/playerOptionsInitializationProgress"
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            tools:visibility="gone">
+
+            <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:indeterminate="true"
+                app:mpb_progressStyle="circular"
+                app:mpb_progressTint="?colorAccent" />
+
+
+        </FrameLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/playerOptionsInitializationError"
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/playerInitializationErrorMessage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="24dp"
+                android:gravity="center"
+                android:text="@string/recitations_loading_network_error_message"
+                app:layout_constraintBottom_toTopOf="@+id/retryPlayerOptionsInitializationButton"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_chainStyle="packed" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/retryPlayerOptionsInitializationButton"
+                style="@style/AppTheme.SpecialMaterialButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/btn_retry_label"
+                android:textColor="#ffffff"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/playerInitializationErrorMessage" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/playerOptionsContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <TextView
+                android:id="@+id/playbackOptionsTitle"
+                style="@style/AppTheme.PlayerOptions.GroupTitle"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:text="@string/playback_parameters"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/startPlaybackButton" />
+
+            <TextView
+                android:id="@+id/reciterName"
+                style="@style/AppTheme.OptionLabel"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:text="@string/reciter"
+                app:layout_constraintBottom_toBottomOf="@+id/reciterValue"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/reciterValue" />
+
+            <TextView
+                android:id="@+id/reciterValue"
+                style="@style/AppTheme.OptionValue"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginRight="24dp"
+                android:maxLength="30"
+                android:paddingBottom="5dp"
+                android:text="Мишари Рашид"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/playbackOptionsTitle" />
+
+            <CheckBox
+                android:id="@+id/highlightWordsCheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/highlight_words_label"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/reciterValue" />
+
+            <CheckBox
+                android:id="@+id/autoScrollEnabledCheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/enable_player_auto_scroll_label"
+                android:textColor="?android:attr/textColorSecondary"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/highlightWordsCheckbox" />
+
+            <TextView
+                android:id="@+id/ayahsRangeTitle"
+                style="@style/AppTheme.PlayerOptions.GroupTitle"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/playback_range_title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/autoScrollEnabledCheckbox" />
+
+            <TextView
+                android:id="@+id/playFromTitle"
+                style="@style/AppTheme.OptionLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/start_playback_ayah_label"
+                app:layout_constraintBottom_toBottomOf="@+id/playFromValue"
+                app:layout_constraintStart_toStartOf="@+id/reciterName"
+                app:layout_constraintTop_toTopOf="@+id/playFromValue" />
+
+            <TextView
+                android:id="@+id/playFromValue"
+                style="@style/AppTheme.OptionValue"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginRight="24dp"
+                android:text="аль-Фатиха, 1 аят"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ayahsRangeTitle" />
+
+            <TextView
+                android:id="@+id/playToTitle"
+                style="@style/AppTheme.OptionLabel"
+                android:layout_marginTop="8dp"
+                android:text="@string/end_playback_ayah_label"
+                app:layout_constraintStart_toStartOf="@+id/playFromTitle"
+                app:layout_constraintTop_toTopOf="@+id/playToValue" />
+
+            <TextView
+                android:id="@+id/playToValue"
+                style="@style/AppTheme.OptionValue"
+                android:layout_marginTop="16dp"
+                android:text="аль-Фатиха, 7 аят"
+                app:layout_constraintEnd_toEndOf="@+id/playFromValue"
+                app:layout_constraintTop_toBottomOf="@+id/playFromValue" />
+
+            <TextView
+                android:id="@+id/repetitionsTitle"
+                style="@style/AppTheme.PlayerOptions.GroupTitle"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:text="@string/playback_repetitions_title"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/playToValue" />
+
+            <TextView
+                android:id="@+id/rangeRepetitionsTitle"
+                style="@style/AppTheme.OptionLabel"
+                android:text="@string/playback_range_repetitions_count_title"
+                app:layout_constraintBottom_toBottomOf="@+id/rangeRepetitionsCountValue"
+                app:layout_constraintStart_toStartOf="@+id/playToTitle"
+                app:layout_constraintTop_toTopOf="@+id/rangeRepetitionsCountValue" />
+
+
+            <TextView
+                android:id="@+id/rangeRepetitionsCountValue"
+                style="@style/AppTheme.OptionValue"
+                android:layout_marginTop="24dp"
+                android:text="1 раз"
+                app:layout_constraintEnd_toEndOf="@+id/playToValue"
+                app:layout_constraintTop_toBottomOf="@+id/repetitionsTitle" />
+
+            <TextView
+                android:id="@+id/singleAyahRepetitionsLabel"
+                style="@style/AppTheme.OptionLabel"
+                android:text="@string/playback_ayah_repetitions_count_title"
+                app:layout_constraintBottom_toBottomOf="@+id/singleAyahRepetitionsCountValue"
+                app:layout_constraintStart_toStartOf="@+id/rangeRepetitionsTitle"
+                app:layout_constraintTop_toTopOf="@+id/singleAyahRepetitionsCountValue" />
+
+            <TextView
+                android:id="@+id/singleAyahRepetitionsCountValue"
+                style="@style/AppTheme.OptionValue"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="16dp"
+                android:text="3 раза"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rangeRepetitionsCountValue" />
+
+            <Button
+                android:id="@+id/startPlaybackButton"
+                style="@style/AppTheme.SpecialMaterialButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:text="@string/play"
+                android:textColor="#ffffff"
+                app:drawableStartCompat="@drawable/ic_play_white_24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.459"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </FrameLayout>
+
+</androidx.core.widget.NestedScrollView>

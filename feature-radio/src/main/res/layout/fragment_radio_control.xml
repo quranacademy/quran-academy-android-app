@@ -1,0 +1,37 @@
+<com.github.clans.fab.FloatingActionMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/radioControlButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    app:menu_colorNormal="?attr/colorAccent"
+    app:menu_colorPressed="?attr/colorAccent"
+    app:menu_icon="@drawable/ic_radio_white_24dp"
+    app:menu_labels_cornerRadius="3dp"
+    app:menu_labels_position="left"
+    app:menu_labels_textColor="#FFFFFF">
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/playPauseRadioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_play_white_24dp"
+        android:tint="@color/white"
+        app:fab_addButtonSize="mini"
+        app:fab_colorNormal="?attr/colorAccent"
+        app:fab_colorPressed="?attr/colorAccent"
+        app:fab_label="@string/pause"
+        app:fab_size="mini" />
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/stopRadioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_stop_white_24dp"
+        android:tint="@color/white"
+        app:fab_colorNormal="?attr/colorAccent"
+        app:fab_colorPressed="?attr/colorAccent"
+        app:fab_label="@string/stop"
+        app:fab_size="mini" />
+
+</com.github.clans.fab.FloatingActionMenu>

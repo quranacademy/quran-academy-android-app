@@ -1,0 +1,8 @@
+apply from: '../build_scripts/modules-config.gradle'
+
+dependencies {
+    implementation project(':core')
+    api project(':model-feedback')
+
+    kapt libraries.toothpickCompiler
+}

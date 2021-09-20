@@ -1,0 +1,11 @@
+apply from: '../build_scripts/modules-config.gradle'
+
+dependencies {
+    implementation project(':core')
+    implementation project(':core-ui')
+
+    implementation libraries.gestureRecycler
+
+    kapt libraries.moxyCompiler
+    kapt libraries.toothpickCompiler
+}

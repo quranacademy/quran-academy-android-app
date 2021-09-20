@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="SplashTheme" parent="QuranAcademyThemeLight">
+        <item name="android:windowBackground">@color/accent</item>
+    </style>
+
+    <style name="QuranAcademyThemeLight" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeStyle">@style/AppTheme.ActionMode</item>
+        <item name="actionModeCloseDrawable">@drawable/ic_arrow_back_white_24dp</item>
+
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="android:textColorLink">@color/primary</item>
+        <item name="android:textColorPrimary">@color/text_primary_light</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/hqa_text_grey_200</item>
+        <item name="android:textColorSecondary">@color/text_secondary_light</item>
+        <item name="android:windowBackground">?windowBackground</item>
+        <item name="windowBackground">@color/window_background_light</item>
+        <item name="windowBackgroundSecondary">@color/window_background_secondary_light</item>
+        <item name="bgClickable">@drawable/bg_clickable_light_transparent</item>
+        <item name="rippleCircle">@drawable/ripple_circle_light</item>
+
+        <item name="prefHeaderTextColor">@color/accent</item>
+        <item name="iconsColor">@color/black</item>
+
+        <!--   Search     -->
+
+        <item name="searchTextHighlightColor">#e74c3c</item>
+
+        <!-- Mushaf -->
+
+        <item name="basmalahImage">@drawable/bismillah_black</item>
+        <item name="mushafPageBackgroundColor">?android:attr/windowBackground</item>
+        <item name="mushafPageTextColor">?android:attr/textColorPrimary</item>
+        <item name="mushafSelectionHighlightColor">#404694A6</item>
+        <item name="mushafBookmarkHighlightColor">#40A4A4A4</item>
+        <item name="mushafAudioHighlightColor">#404694A6</item>
+
+        <!-- Player -->
+
+        <item name="optionsValueBg">@drawable/options_value_bg_light</item>
+        <item name="playerOptionsCircleButtonBg">@drawable/player_options_circle_button_bg_light</item>
+        <item name="playerProgressBg">@drawable/player_progressbar_bg_light</item>
+        <item name="playerProgressThumbBg">@drawable/player_progressbar_thumb_light</item>
+        <item name="ayahAudioHighlightColor">#404694A6</item>
+
+        <!--Material Drawer-->
+
+        <item name="material_drawer_background">@color/white</item>
+        <item name="material_drawer_primary_text">@color/hqa_dark_grey_100</item>
+        <item name="material_drawer_primary_icon">#717572</item>
+        <item name="material_drawer_divider">@color/grey_alpha_50</item>
+    </style>
+
+    <style name="QuranAcademyThemeBrown" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeStyle">@style/AppTheme.ActionMode</item>
+        <item name="actionModeCloseDrawable">@drawable/ic_arrow_back_white_24dp</item>
+
+        <item name="colorPrimary">@color/primary_brown</item>
+        <item name="colorPrimaryDark">@color/primary_dark_brown</item>
+        <item name="colorAccent">@color/accent_brown</item>
+        <item name="colorSecondary">@color/accent_brown</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="android:textColorLink">@color/primary_brown</item>
+        <item name="android:textColorPrimary">@color/text_primary_brown</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/text_primary_disabled_brown</item>
+        <item name="android:textColorSecondary">@color/text_secondary_brown</item>
+        <item name="android:windowBackground">?windowBackground</item>
+        <item name="windowBackground">@color/window_background_brown</item>
+        <item name="windowBackgroundSecondary">@color/window_background_secondary_brown</item>
+        <item name="bgClickable">@drawable/bg_clickable_light_transparent</item>
+        <item name="rippleCircle">@drawable/ripple_circle_light</item>
+
+        <item name="prefHeaderTextColor">@color/accent_brown</item>
+        <item name="iconsColor">@color/black</item>
+        <item name="md_background_color">?android:attr/windowBackground</item>
+
+        <!--   Search     -->
+
+        <item name="searchTextHighlightColor">#e74c3c</item>
+
+        <!-- Mushaf -->
+
+        <item name="basmalahImage">@drawable/bismillah_black</item>
+        <item name="mushafPageBackgroundColor">?android:attr/windowBackground</item>
+        <item name="mushafPageTextColor">?android:attr/textColorPrimary</item>
+        <item name="mushafSelectionHighlightColor">#404694A6</item>
+        <item name="mushafBookmarkHighlightColor">#40A4A4A4</item>
+        <item name="mushafAudioHighlightColor">#404694A6</item>
+
+        <!-- Player -->
+
+        <item name="optionsValueBg">@drawable/options_value_bg_brown</item>
+        <item name="playerOptionsCircleButtonBg">@drawable/player_options_circle_button_bg_brown
+        </item>
+        <item name="playerProgressBg">@drawable/player_progressbar_bg_brown</item>
+        <item name="playerProgressThumbBg">@drawable/player_progressbar_thumb_brown</item>
+        <item name="ayahAudioHighlightColor">#404694A6</item>
+
+        <!--Material Drawer-->
+
+        <item name="material_drawer_background">?windowBackground</item>
+        <item name="material_drawer_primary_text">?android:attr/textColorPrimary</item>
+        <item name="material_drawer_primary_icon">#727265</item>
+        <item name="material_drawer_divider">@color/grey_alpha_50</item>
+    </style>
+
+    <style name="QuranAcademyThemeNight" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeStyle">@style/AppTheme.ActionMode</item>
+        <item name="actionModeCloseDrawable">@drawable/ic_arrow_back_white_24dp</item>
+
+        <item name="colorPrimary">@color/primary_night</item>
+        <item name="colorPrimaryDark">@color/primary_dark_night</item>
+        <item name="colorAccent">@color/accent_night</item>
+        <item name="colorSecondary">@color/accent_night</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="android:textColorLink">@color/accent_night</item>
+        <item name="android:textColorPrimary">@color/text_primary_night</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/text_primary_disabled_night</item>
+        <item name="android:textColorSecondary">@color/text_secondary_night</item>
+        <item name="android:windowBackground">?windowBackground</item>
+        <item name="windowBackground">@color/window_background_night</item>
+        <item name="windowBackgroundSecondary">@color/window_background_secondary_night</item>
+        <item name="bgClickable">@drawable/bg_clickable_dark_transparent</item>
+        <item name="rippleCircle">@drawable/ripple_circle_dark</item>
+
+        <item name="prefHeaderTextColor">@color/accent_night</item>
+        <item name="iconsColor">@color/md_white_1000</item>
+        <item name="md_background_color">?android:attr/windowBackground</item>
+        <item name="md_color_button_text">@color/accent_night</item>
+
+        <!--   Search     -->
+        <item name="searchTextHighlightColor">#e74c3c</item>
+
+        <!-- Mushaf -->
+
+        <item name="basmalahImage">@drawable/bismillah_white</item>
+        <item name="mushafPageBackgroundColor">?android:attr/windowBackground</item>
+        <item name="mushafPageTextColor">?android:attr/textColorSecondary</item>
+        <item name="mushafSelectionHighlightColor">#404694A6</item>
+        <item name="mushafBookmarkHighlightColor">#40A4A4A4</item>
+        <item name="mushafAudioHighlightColor">#404694A6</item>
+
+        <!-- Player -->
+
+        <item name="optionsValueBg">@drawable/options_value_bg_night</item>
+        <item name="playerOptionsCircleButtonBg">@drawable/player_options_circle_button_bg_night
+        </item>
+        <item name="playerProgressBg">@drawable/player_progressbar_bg_night</item>
+        <item name="playerProgressThumbBg">@drawable/player_progressbar_thumb_night</item>
+        <item name="ayahAudioHighlightColor">#404694A6</item>
+
+        <!--Material Dialog -->
+        <item name="md_background_color">@color/window_background_secondary_night</item>
+
+        <!--Material Drawer-->
+
+        <item name="material_drawer_background">?windowBackground</item>
+        <item name="material_drawer_primary_text">?android:attr/textColorPrimary</item>
+        <item name="material_drawer_primary_icon">?android:attr/textColorPrimary</item>
+        <item name="material_drawer_divider">@color/hqa_grey_100</item>
+    </style>
+
+    <style name="AppTheme.ActionMode" parent="Widget.AppCompat.ActionMode">
+        <item name="background">?colorPrimary</item>
+        <item name="backgroundSplit">?colorPrimary</item>
+    </style>
+
+</resources>

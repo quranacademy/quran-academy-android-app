@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.quranacademy.quran.translationsmanager">
+
+    <application>
+        <activity android:name=".presentation.ui.translationsmanager.TranslationsManagerActivity" />
+
+        <activity android:name=".presentation.ui.translationordering.TranslationsOrderActivity" />
+    </application>
+
+</manifest>

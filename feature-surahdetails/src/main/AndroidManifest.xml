@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.quranacademy.quran.surahdetails">
+
+    <application>
+
+        <activity android:name="org.quranacademy.quran.surahdetails.ui.SurahDetailsActivity" />
+
+    </application>
+
+</manifest>

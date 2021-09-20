@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="ayah_toolbar_height">42dp</dimen>
+    <dimen name="ayah_toolbar_total_height">54dp</dimen>
+    <dimen name="ayah_toolbar_pip_height">12dp</dimen>
+    <dimen name="ayah_toolbar_pip_width">14dp</dimen>
+    <dimen name="ayah_toolbar_item_width">42dp</dimen>
+    <dimen name="translations_panel_height">300dp</dimen>
+
+    <dimen name="ayah_translation_navigation_button_height">45dp</dimen>
+    <dimen name="ayah_translation_navigation_button_width">60dp</dimen>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.simplecityapps.recyclerview_fastscroll.views.FastScrollRecyclerView
+        android:id="@+id/surahsList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:fastScrollPopupBgColor="?attr/colorAccent"
+        app:fastScrollPopupTextColor="@color/md_white_1000"
+        app:fastScrollThumbColor="?attr/colorAccent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/item_surah" />
+
+    <include
+        android:id="@+id/progressLayout"
+        layout="@layout/layout_progress"
+        android:visibility="gone" />
+
+</FrameLayout>

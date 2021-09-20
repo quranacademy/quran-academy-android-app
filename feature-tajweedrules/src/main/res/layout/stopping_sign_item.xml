@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:layout_width="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_height="40dp">
+
+        <TextView
+            android:id="@+id/stoppingSignSymbol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="30sp"
+            app:fontPath="fonts/quran_stopping_signs.ttf"
+            tools:text="x" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/stoppingSignDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="?android:attr/textColorPrimary"
+        tools:text="Остановка обязательна" />
+
+</LinearLayout>

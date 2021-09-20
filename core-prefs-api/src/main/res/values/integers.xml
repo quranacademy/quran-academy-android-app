@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="min_reader_arabic_text_size">16</integer>
+    <integer name="max_reader_arabic_text_size">72</integer>
+    <integer name="min_reader_translation_text_size">12</integer>
+    <integer name="max_reader_translation_text_size">26</integer>
+</resources>

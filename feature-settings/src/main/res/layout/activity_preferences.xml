@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?windowBackgroundSecondary"
+    tools:context=".presentation.ui.SettingsActivity">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <org.quranacademy.quran.ui.preferences.MaterialPreferenceScreen
+        android:id="@+id/preferenceScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <org.quranacademy.quran.ui.preferences.MaterialPreferenceCategory
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:mpc_title="@string/prefs_quran_title">
+
+            <org.quranacademy.quran.ui.preferences.MaterialPreferenceWithLabel
+                android:id="@+id/prefTranslationsScreen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mp_summary="@string/prefs_translations_summary"
+                app:mp_title="@string/prefs_translations_title" />
+
+            <org.quranacademy.quran.ui.preferences.MaterialPreferenceWithLabel
+                android:id="@+id/prefTafseersScreen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mp_summary="@string/prefs_tafseers_summary"
+                app:mp_title="@string/prefs_tafseers_title" />
+
+            <org.quranacademy.quran.ui.preferences.MaterialPreferenceWithLabel
+                android:id="@+id/prefTranslationsOrderingScreen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mp_summary="@string/prefs_translations_ordering_summary"
+                app:mp_title="@string/prefs_translations_ordering_title" />
+
+            <org.quranacademy.quran.ui.preferences.MaterialPreferenceWithLabel
+                android:id="@+id/prefWordByWordTranslationsScreen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mp_summary="@string/prefs_word_by_word_translation_summary"
+                app:mp_title="@string/prefs_word_by_word_translation_title" />
+
+            <org.quranacademy.quran.ui.preferences.MaterialSwitchPreference
+                android:id="@+id/prefEnableWordByWord"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mp_key="word_by_word_enabled"
+                app:mp_summary="@string/prefs_word_by_word_translation_enabled_summary"
+                app:mp_title="@string/prefs_word_by_word_translation_enabled_title" />
+
+            <org.quranacademy.quran.ui.preferences.MaterialSwitchPreference
+                android:id="@+id/prefEnableTranslationUpdatesChecking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mp_key="translations_update_checking_enabled"
+                app:mp_summary="@string/prefs_translations_update_checking_enabled_summary"
+                app:mp_title="@string/prefs_translations_update_checking_enabled_title" />
+
+        </org.quranacademy.quran.ui.preferences.MaterialPreferenceCategory>
+
+        <org.quranacademy.quran.ui.preferences.MaterialPreferenceCategory
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:mpc_title="@string/prefs_reading_title">
+
+            <org.quranacademy.quran.ui.preferences.MaterialSwitchPreference
+                android:id="@+id/prefEnableTajweedHighlighing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mp_key="is_tajweed_enabled"
+                app:mp_summary="@string/prefs_tajweeed_enabled_summary"
+                app:mp_title="@string/prefs_tajweeed_enabled_title" />
+
+            <org.quranacademy.quran.ui.preferences.MaterialSwitchPreference
+                android:id="@+id/prefReadingScreenOnStart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mp_key="open_last_reading_place_on_start_enabled"
+                app:mp_summary="@string/prefs_open_last_reading_place_on_start_summary"
+                app:mp_title="@string/prefs_open_last_reading_place_on_start_title" />
+
+            <org.quranacademy.quran.ui.preferences.MaterialStandardPreference
+                android:id="@+id/prefQuranTextSettings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mp_title="@string/prefs_quran_text_settings_title" />
+
+            <!--            <org.quranacademy.quran.ui.preferences.MaterialStandardPreference-->
+            <!--                android:id="@+id/prefMushafPageType"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                app:mp_title="@string/prefs_msuhaf_page_type_title" />-->
+
+        </org.quranacademy.quran.ui.preferences.MaterialPreferenceCategory>
+
+        <org.quranacademy.quran.ui.preferences.MaterialPreferenceCategory
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:mpc_title="@string/prefs_appearance_title">
+
+            <org.quranacademy.quran.ui.preferences.MaterialStandardPreference
+                android:id="@+id/prefAppLanguage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mp_title="@string/prefs_language_title" />
+
+            <org.quranacademy.quran.ui.preferences.MaterialSingleChoicePreference
+                android:id="@+id/prefAppTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mp_key="app_theme"
+                app:mp_show_value="onRight"
+                app:mp_title="@string/prefs_app_theme_title" />
+
+            <org.quranacademy.quran.ui.preferences.MaterialSingleChoicePreference
+                android:id="@+id/prefMushafTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mp_key="mushaf_theme"
+                app:mp_show_value="onRight"
+                app:mp_title="@string/prefs_mushaf_theme_title" />
+
+        </org.quranacademy.quran.ui.preferences.MaterialPreferenceCategory>
+
+        <org.quranacademy.quran.ui.preferences.MaterialPreferenceCategory
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:mpc_title="@string/prefs_others_title">
+
+            <org.quranacademy.quran.ui.preferences.MaterialStandardPreference
+                android:id="@+id/prefHistoryItemsSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mp_title="@string/prefs_reading_history_size_title" />
+
+            <org.quranacademy.quran.ui.preferences.MaterialStandardPreference
+                android:id="@+id/prefDownloadAllMushafImages"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mp_summary="@string/prefs_download_all_mushaf_images_summary"
+                app:mp_title="@string/prefs_download_all_mushaf_images_title" />
+
+            <org.quranacademy.quran.ui.preferences.MaterialStandardPreference
+                android:id="@+id/prefFilesLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:mp_summary="@string/prefs_files_location_summary"
+                app:mp_title="@string/prefs_files_location_title" />
+
+        </org.quranacademy.quran.ui.preferences.MaterialPreferenceCategory>
+
+    </org.quranacademy.quran.ui.preferences.MaterialPreferenceScreen>
+
+</LinearLayout>

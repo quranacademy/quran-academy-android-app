@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Кьуръандин Академия</string>
+    <string name="check_network_dialog_message">Алакъадин гъалатӏ</string>
+    <string name="check_network_dialog_title">Интернетдин алакъадиз килига</string>
+    <string name="btn_retry_label">Мад авун</string>
+    <string name="btn_cancel_title">Элкъуьрун</string>
+    <string name="btn_label_ok">OK</string>
+    <string name="read_more_label">ахъайун</string>
+    <string name="read_less_label">чуьнуьхарун</string>
+    <string name="no_network_connection_title">Алакъа авач</string>
+    <string name="no_network_connection_message">Интернетдик алакъа аматӏа килигна мад ая.</string>
+    <string name="download_dialog_title">Парзава&#8230;</string>
+    <string name="download_progress_dialog_message">Парнава %1$s/%2$s</string>
+    <string name="ligature_replacement_sas">Аллагьди вичиз саламатни баракат гуй</string>
+    <string name="ligature_replacement_as">Саламат хьуй вичиз</string>
+    <string name="ligature_replacement_radu">Аллагь адал рази хьуй</string>
+    <string name="ligature_replacement_rada">Аллагь адал рази хьуй</string>
+    <string name="ligature_replacement_radum">Аллагь абурал рази хьуй</string>
+    <string name="ligature_replacement_raduma">Аллагь абурал кьвецӏелни рази хьуй</string>
+    <string name="ligature_replacement_rahimahu">Аллагьди адаз вичин регьимвал гуй</string>
+    <string name="ligature_replacement_rahimahum">Аллагьдин регьим адал атуй</string>
+    <string name="ligature_replacement_rahimahuma">Аллагьди абуруз кьвецӏизни регьимвал гуй</string>
+    <!-- Splash screen -->
+    <string name="select_language_title">Чӏал хкягъа</string>
+    <string name="btn_exit_label">Экъечӏун</string>
+    <string name="data_migration_message">Акъваз сакІус. Кар туькІуьр жезва</string>
+    <string name="quran_data_downloading_started">Кьуръандин малуматрин ацӏурун эгечӏнава</string>
+    <string name="preparing_quran_data">Кьуръандикай малуматар гьазур авун</string>
+    <string name="downloading_required_data_for_mushaf">Мусхафдиз герек малуматар ацӏурун</string>
+    <!-- Intro screen -->
+    <string name="translations_intro_title">Кьуръандин таржумаяр хкягъа</string>
+    <string name="tafseers_intro_title">Тафсирар хкягъа</string>
+    <string name="wbw_translations_intro_title">Гафунилай таржума хкягъа</string>
+    <string name="intro_skip_button">Алудун</string>
+    <string name="intro_next_button">Вилик</string>
+    <string name="intro_done_button">Авунва</string>
+    <!-- Main screen  -->
+    <string name="surahs">Сураяр</string>
+    <string name="bookmarks">Чипар</string>
+    <string name="jump_to_ayah">Фин</string>
+    <string name="page_number">Чинин номер</string>
+    <string name="settings">Туькӏуьрунар</string>
+    <string name="about_app">Приложенидикай</string>
+    <string name="open_bookmark">Чип ахъайун</string>
+    <string name="rate_app">Приложенидиз къимет эцигун</string>
+    <string name="translation_update_notification_title">Цӏийи хъувун жеда</string>
+    <string name="translation_update_notification_details">Таржумрин цӏийивилер ахъа я</string>
+    <string name="select_reading_mode_title">Кӏелдай къайда хкягъа</string>
+    <string name="list_reading_mode">Сиягь</string>
+    <string name="mushaf_reading_mode">Мусгьаф</string>
+    <string name="max_quran_page_number_error_message">Чинин виридалайни чӏехи номер - 604</string>
+    <!--Search screen-->
+    <string name="search">Къекъуьн</string>
+    <string name="search_hint">Кьуръандай къекъуьн</string>
+    <string name="no_results_label">"%s" патал са затІни акъатнач</string>
+    <string name="arabic_search_result_ayah_info">Сура %s, %s аят</string>
+    <string name="translation_search_result_ayah_info">Сура %s, %s аят - %s</string>
+    <string name="search_results_count_label">Акъатна: %s</string>
+    <string name="search_message">Кьуръандин таржумрайни текстрай къекъуьн. \n3 лишандилай артух герекзава.</string>
+    <!-- Surahs tab screen  -->
+    <string name="juz_title">Джуз %1$d</string>
+    <string name="surah_description_template">%s, %s</string>
+    <string name="page_number_template">Чин %s</string>
+    <plurals name="ayahs_count_label">
+        <item quantity="one">%1$d аят</item>
+        <item quantity="other">%1$d аят</item>
+    </plurals>
+    <!-- Bookmarks tab screen  -->
+    <string name="recent_pages">КІелунин тарих</string>
+    <string name="ayah_bookmarks">Аятрин чип</string>
+    <string name="page_bookmarks">Чинрин чип</string>
+    <string name="page_bookmark_template">%s, чин %d</string>
+    <string name="bookmarks_not_found">Чипар жагъанвач</string>
+    <string name="delete_bookmark">Чӏурун чип</string>
+    <!-- Surahs details screen  -->
+    <string name="initial_setup">Сифте туькӏуьрунар</string>
+    <string name="translations_downloading_dialog_title">Таржумаяр хкягъа:</string>
+    <string name="open_text_settings_panel">Туькӏуьрунрин ара ахъаюн</string>
+    <string name="switch_read_mode">Кӏелунин маса къайда эцигун</string>
+    <string name="open_next_surah">Гуьгъуьнин сура</string>
+    <!-- Ayah details dialog  -->
+    <string name="translations_sharing_dialog_title">Таржумаяр хкягъа:</string>
+    <string name="share_quranarabic_text_option">Кьуръандин текст</string>
+    <string name="copy_ayah">Аят копи авун</string>
+    <string name="share_ayah">Аят пай авун</string>
+    <string name="ayah_text_copied">Аятдин текст копи авунва</string>
+    <!-- Mushaf screen  -->
+    <string name="download_page_bounds_data_title">Герек авай файлар пар ийидан?</string>
+    <string name="download_page_bounds_data_message">Приложениди дуьздаказ кIвалах авун патал са файлар пар
+        авуна кIанда. Интернетдик алакъа аватIа килигна "OK" илиса.</string>
+    <string name="download_images_bundle_title">Вири чинар пар ийидан?</string>
+    <string name="download_images_bundle_message">Ваз приложени оффлайн худда тваз кӏанзаватӏа вуна вири файлар пар авуна кӏанда.
+        Исятда ам тавуртӏа, гьар чин пар авуни пара чӏав кьада.
+        Ваз герек авай файлар исятда пар ийиз кӏанзаван?    </string>
+    <!-- Mushaf page screen  -->
+    <string name="page_load_error_message">Чин пар ийидайла гъалатӏ акъатна. Алакъа аматӏа килига</string>
+    <string name="bookmark_ayah">И аятдин чип туькӏуьрун</string>
+    <string name="translation_ayah">Аятдин таржума/тафсир</string>
+    <string name="play_ayah">Аятдиз яб гун</string>
+    <string name="enabled_translations_not_found">Кардик кутунвай таржумаяр авач</string>
+    <string name="open_translations_screen">Таржумаяр авай экран ахъаюн</string>
+    <!-- Quran text settings  -->
+    <string name="text_sample">Текстинин ибрет</string>
+    <string name="basmalah_text_translation">Рагьим, Рагьман Аллагьдин тӏварцӏелди.</string>
+    <string name="arabic_text_size">Араб текстинин чӏехивал</string>
+    <string name="translation_text_size">Таржумадин текстинин чӏехивал</string>
+    <string name="wbw_text_size">Гафуналди авунвай таржумадин текстинин чӏехивал</string>
+    <string name="arabic_font">Араб шрифт</string>
+    <string name="translation_font">Таржумадин шрифт</string>
+    <string name="enable_arabic_text_centering">Араб текст юкьва тун</string>
+    <string name="enable_translation_text_centering">Таржумадин текст юкьва тун</string>
+    <!-- Audiomanager -->
+    <string name="audio_manager">Аудио менеджер</string>
+    <string name="remove_recitation_audio_title">ЧІур ийидан аудио?</string>
+    <string name="remove_recitation_audio_message">Ваз рикІивайни %1$s аудио чІур ийиз кІанзаван?</string>
+    <string name="audio_downloading_title">&#8230; аудио пар авун</string>
+    <string name="audio_downloading_message">%1$s (%2$s/%3$s) пар авун</string>
+    <string name="recitation_audio_info">%d сураяр парнава (%s)</string>
+    <string name="surah_audio_info">%d/%d аят парнава (%s)</string>
+    <string name="audio_not_downloaded">Парнавач</string>
+    <!-- Audioplayer -->
+    <string name="ayah_number_option_value">%s, %d аят</string>
+    <plurals name="repetition_count_option_value">
+        <item quantity="one">%s сефер</item>
+        <item quantity="other">%s сефер</item>
+    </plurals>
+    <string name="play">Худда тун</string>
+    <string name="stop">Стоп</string>
+    <string name="pause">Пауза</string>
+    <string name="next">Гуьгъуьнин аят</string>
+    <string name="prev">Вилик гвай аят</string>
+    <string name="now_playing">Исятда худда тун</string>
+    <string name="ayah_playback_title">Сура %s, %d аят</string>
+    <string name="ayah_is_download_message">&#8230; аят пар авун</string>
+    <string name="audio_download_network_error_message">Парун акъвазна: интернетдик алакъа кматӏа килиг</string>
+    <string name="ayah_download_incorrect_url_error_message">Парунин гъалатӏ: и кӏелдайдиз аудио пар жезвач</string>
+    <string name="unknown_playback_error_message">Худда тунин чин тийидай гъалатӏ</string>
+    <string name="ayah_audio_file_not_found_error_message">%d/%d аятдиз аудиофайл жагъанвач</string>
+    <string name="playback_parameters">Худда тунин туькӏуьрунар</string>
+    <string name="reciter">Кӏелзавайди</string>
+    <string name="start_playback_ayah_label">Инилай эгечӏун:</string>
+    <string name="end_playback_ayah_label">Иналди:</string>
+    <string name="playback_range_title">Мад кутунар</string>
+    <string name="enable_player_auto_scroll_label">Автопрокрутка кутун</string>
+    <string name="highlight_words_label">Гафариз экв гун</string>
+    <string name="timecodes_download_message">Гафариз экв гун патал аудио ядайла артухан файлар пар авуна кІанда. Хуьз эгечІдан?</string>
+    <string name="btn_download_label">Парун</string>
+    <string name="playback_repetitions_title">Тикрар</string>
+    <string name="playback_range_repetitions_count_title">Вири аятар мад кутун:</string>
+    <string name="playback_ayah_repetitions_count_title">Гьар аят мад кутун:</string>
+    <string name="play_ayah_once">Са сефер</string>
+    <string name="play_ayah_infinitely">Куьтягь тежез</string>
+    <string name="permission_needed_title">Ихтияр герек я</string>
+    <string name="surah_selection_title">Сура:</string>
+    <string name="ayah_selection_title">Аят:</string>
+    <string name="external_permission_not_needed_message">Кьуръандин аудио пар авун патал девайсдин къецепатан хуьдайдик алакъа хьана кӏанда.</string>
+    <string name="external_permission_not_granted_message">Кьуръандин аудио пар авун патал девайсдин къецепатан хуьдайдик алакъа хьана кӏанда. Ахъай ая туькӏуьрунин экран, ахпа приложенидиз къецепатан хуьдайдик алакъа це.</string>
+    <string name="recitations_loading_network_error_message">Кӏелдайбурун сиягь пар ийидайла гъалатӏ акъатна. Алакъа аматӏа килига</string>
+    <!-- Memorization screens  -->
+    <string name="quran_memorization">Кьуръан чир авун</string>
+    <string name="quran_memorizatio_test">Чирнавайдаз килигун</string>
+    <string name="quran_memorization_tutorial">Чир авунин малумат</string>
+    <string name="start_label">ЭгечІун</string>
+    <string name="tutorial_label">Малумат</string>
+    <string name="memorization_mode_label">Чир авунин низам:</string>
+    <string name="choose_memorizing_mode">Чир авунин низам хкягъа</string>
+    <string name="page_memorization_mode">Чин</string>
+    <string name="surah_memorization_mode">Сура</string>
+    <string name="select_surah">Сура хкягъа</string>
+    <string name="memorization_ayah_repetition_count">Тикрарин кьадар:</string>
+    <string name="memorization_delay_between_repetitions">Тикрарин арада авай интервал:</string>
+    <string name="select_repetitions_count">Тикраррин кьадар хкягъа</string>
+    <string name="select_delay_between_repetitions">Интервал (секундар) хкягъа</string>
+    <string name="recitation_label">КІелдайди:</string>
+    <string name="select_recitation">КІелдайди хкягъа</string>
+    <string name="ayahs_range_selection_label">Аятрин интервал:</string>
+    <string name="select_ayahs_range_title">Аятрин интервал хкягъа</string>
+    <string name="select_page_number_title">Чинин номер хкягъа</string>
+    <string name="memorize_data_downloading_message">Чир айиз герек малуматар ацӏурун</string>
+    <string name="exit_confirm_message">Ваз рикІивайни экъечІ ийиз кІанзаван?</string>
+    <string name="memorization_completed_title">Чир авун куьтягьнава</string>
+    <string name="memorization_completed_message">Ваз чир авун мад эгечІ ийиз кІанзаван дахьайтІа куьтягь ийидан ам?</string>
+    <string name="btn_start_memorization_again_label">Мад сефер</string>
+    <string name="btn_finish_label">Куьтягьун</string>
+    <!-- Settings screen  -->
+    <string name="prefs_appearance_title">Къъеце пад</string>
+    <string name="prefs_reading_title">КIел авун</string>
+    <string name="prefs_language_title">Чӏал</string>
+    <string name="prefs_app_theme_title">Тема</string>
+    <string name="prefs_mushaf_theme_title">Мусгьафдин тема</string>
+    <string name="prefs_quran_text_settings_title">Кьуръандин текстинин туькIуьрунар</string>
+    <string name="translations">Таржумаяр</string>
+    <string name="tafseers">Тафсирар</string>
+    <string name="word_by_word">Гафуналди таржума</string>
+    <string name="prefs_quran_title">Кьуръан</string>
+    <string name="prefs_translations_title">Таржумаяр</string>
+    <string name="prefs_translations_summary">Пар авунни таржумаяр кьиле тухун</string>
+    <string name="prefs_tafseers_title">Тафсирар</string>
+    <string name="prefs_tafseers_summary">Тафсирар пар авунни кьиле тухун</string>
+    <string name="prefs_translations_ordering_title">Таржумаяр низамарун</string>
+    <string name="prefs_translations_ordering_summary"></string>
+    <string name="prefs_word_by_word_translation_enabled_title">Гафунин таржума кутун</string>
+    <string name="prefs_word_by_word_translation_enabled_summary">Кьуръандин гафунин таржума кутун</string>
+    <string name="prefs_word_by_word_translation_title">Гафунин таржумадин чӏал</string>
+    <string name="prefs_tajweeed_enabled_summary">Таджвиддин экв кутун</string>
+    <string name="prefs_tajweeed_enabled_title">Таджвид кутун</string>
+    <string name="prefs_word_by_word_translation_summary">Гафуналди ийизавай таржумаяр пар авун</string>
+    <string name="prefs_translations_update_checking_enabled_title">Цӏийивилер аватӏа килигун</string>
+    <string name="prefs_translations_update_checking_enabled_summary">Таржумадин цӏийивилер килигун кутун</string>
+    <string name="app_theme_light">Экуь</string>
+    <string name="app_theme_brown">Шуьтруь</string>
+    <string name="app_theme_dark">Мичӏи</string>
+    <string name="prefs_quran_arabic_text_size_title">Араб шрифтдин чӏехивал</string>
+    <string name="prefs_quran_translation_text_size_title">Таржумадин текстинин чӏехивал</string>
+    <string name="prefs_open_last_reading_place_on_start_title">Худда твадайла кӏелунин экран ахъай авун</string>
+    <string name="prefs_open_last_reading_place_on_start_summary">Худда твадайла кӏелунин эхиримжи чка ахъайун</string>
+    <string name="prefs_others_title">Амайбур</string>
+    <string name="prefs_download_all_mushaf_images_title">Мусгьафдин файлар пар авун</string>
+    <string name="prefs_download_all_mushaf_images_summary">Мусгьафдин чинар вири санал пар авун</string>
+    <string name="images_bundle_downloading_finished_message">Мусгьафдин файлар пар хьана</string>
+    <!-- Languages manager screen -->
+    <string name="language_is_removed_message">ЧІал акъуднава</string>
+    <!--Translations manager screen -->
+    <string name="downloaded_category_label">Парнавайбур</string>
+    <string name="available_category_label">Паруниз алакъа авайбур</string>
+    <string name="remove_translation_title">Чӏур ийидан таржума?</string>
+    <string name="remove_translation_message">Ваз рикӏивайни %1$s чӏур ийиз кӏанзаван?</string>
+    <string name="btn_remove_title">Чӏурун</string>
+    <string name="update_available">Цӏийивал алавадик ква</string>
+    <string name="translations_list_empty">Таржумаяр жагъанвач</string>
+    <string name="show_in_list_title">Сиягьда къалурун</string>
+    <string name="show_in_dialog_title">Ихтилатда къалурун</string>
+    <!--Tajweed rules screen  -->
+    <string name="tajweed_rules">Таджвиддин низамар</string>
+    <string name="taj_rule_ghunna">Гъунна (нердин ванер)</string>
+    <string name="taj_rule_qalqala">Къалькъаля (юзурун)</string>
+    <string name="taj_rule_iqlab">Икъляб (ассимиляция)</string>
+    <string name="taj_rule_idgham">Идгъам (акахьарун)</string>
+    <string name="taj_rule_idgham_without_ghunna">Идгъам гъунна квачиз</string>
+    <string name="taj_rule_ikhfa">Ихъфа (чуьнуьхарун)</string>
+    <string name="stopping_sign_must_stop">Акъвазун чарасуз я</string>
+    <string name="stopping_sign_better_to_stop">Акъвазна кІанда</string>
+    <string name="stopping_sign_pause_at_one">Къалурнавай чкайрикай сана акъвазарун</string>
+    <string name="stopping_sign_a_slight_pause">Кьезил пауза</string>
+    <string name="stopping_sign_stop_or_continue">Акъвазарун дахьайтІа вилик фин</string>
+    <string name="stopping_sign_better_to_continue">Вилик фейитІа хъсан я</string>
+    <string name="stopping_sign_dont_stop">Акъвазар ийиз ихтияр авач</string>
+    <!--Update needed screen  -->
+    <string name="update_needed_title">Приложенидин цӏийивилер</string>
+    <string name="update_needed_message">Приложенидин и версия куьгьне хьанва. Эхиримжи версия пар авун патал Google Playдиз ша.</string>
+    <string name="update_app_button_title">Парун</string>
+    <!-- About screen  -->
+    <string name="about_title">Приложенидикай</string>
+    <string name="about_feedback">Хабар гун</string>
+    <string name="send_bug_report">Гъалатӏдикай хабар гун</string>
+    <string name="share_app">Приложени масадаз къалурун</string>
+    <string name="translations_copyright">Важиб малум</string>
+    <string name="translations_copyright_title_message"><![CDATA[Вири ихтиярар хвенва. И таржумайрин са пайни таржума, худда тун, къекъуьнин системада хуьн, гьар жуьреда, электронвилин, механикавилин, фотокопировани, винелай кхьин, акъудунин я дахьайтӏа маса жуьредалди иесидин ихтияр гвачиз ийиз ихтияр авайди туш. Вири суалар патахъай кхьихь почтадал <a href="mailto:hqaweb@gmail.com">hqaweb@gmail.com</a>
+        <br/><br/>
+        Кьуръандин са таржумадини а Ктабдин мана михьидаказ къалурзавайди туш, гьавиляй Кьуръандин чкани адавай кьаз жедач. Кьуръандин манаяр жезмай кьван хъсандаказ гъавурда кьун патал Аллагьдин Расулдин Сунна (Аллагьдин саламатни баракат адаз хьуй) кӏанда, мад араб чӏалал тафсирарни герек я.
+        <br/><br/>
+        Чна жезмай кьван дуьз тафсиррин сиягь туькIуьрнава. Ятӏани, чавай абур 100% дуьз я лугьуз жедач, акъат жедай гъалатӏар хьун мумкинвал авайвили.
+        <br/><br/>
+        Аллагьди ваз Кьуръан чирдай рехъ кьесил авурай.]]></string>
+    <string name="google_play_app_not_found_error_message">Google Play жагъанвач</string>
+    <!-- Rate app dialog  -->
+    <string name="msg_please_rate_app">Чаз хъсан жез куьмек гун патал приложенидал къимет эцига!</string>
+    <string name="btn_label_rate_later">Ахпа къимет эцигун</string>
+    <string name="leave_feedback_title">Жаваб тун</string>
+    <string name="bad_rating_feedback_hint_message">Ваз чи приложенида вуч бегенмиш туштӏа хабар це</string>
+    <string name="please_rate_us_title">Вау, сагърай!</string>
+    <string name="please_rate_us_message">Чаз Google Playдани къимет эцига</string>
+    <string name="incorrect_email_message">Почтадин адрес дуьздаказ кхьихь</string>
+    <string name="empty_feedback_message">Хабар гудай чка ичӏи жедайди туш</string>
+    <string name="btn_label_send">Ракъурун</string>
+    <string name="feedback_sent_message">Хабар ганва</string>
+    <string name="email_hint_message">E-mail (дахьайтӏани жеда)</string>
+    <string name="leave_feedback_hint_message">Чи приложенидикай жуван фикирар кхьихь</string>
+    <!--Error messages todo-->
+    <string name="not_enough_free_space_on_disk_message">Пар авунин гъалатӏ. Дискдал чка амач.</string>
+    <string name="ssl_error_check_device_time_message">Сервердик кутадайла гъалатӏ акъатна. Ви девайсдал чӏавуниз килиг.</string>
+</resources>

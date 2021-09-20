@@ -1,0 +1,23 @@
+apply from: '../build_scripts/modules-config.gradle'
+
+dependencies {
+    api project(':model-player')
+
+    implementation project(':core')
+    implementation project(':core-ui')
+    implementation project(':core-database')
+    implementation project(':core-prefs-api')
+    implementation project(':data-recitations-repository')
+    implementation project(':ui-preferences')
+
+    implementation "androidx.media:media:1.2.1"
+    implementation libraries.exoPlayer
+    implementation project(':core-permissions')
+    implementation project(':core-network-api')
+
+    implementation 'com.pnikosis:materialish-progress:1.7'
+    implementation libraries.playPauseView
+
+    kapt libraries.moxyCompiler
+    kapt libraries.toothpickCompiler
+}

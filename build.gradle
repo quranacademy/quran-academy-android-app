@@ -1,0 +1,45 @@
+apply from: 'build_scripts/dependencies.gradle'
+
+buildscript {
+    // Gradle will not find vars defined in an external file when referring to them
+    // in the buildscript block, unless you link it from the buildscript block, too.
+    apply from: 'build_scripts/dependencies.gradle'
+
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.2.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$versions.kotlin"
+        classpath "com.github.triplet.gradle:play-publisher:2.8.0"
+
+        classpath 'com.google.gms:google-services:4.3.8'
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.7.1'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        maven { url "https://maven.google.com" }
+        maven { url 'https://jitpack.io' }
+
+        flatDir {
+            dirs 'libs'
+            dirs project(':core-ui').file('libs')
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

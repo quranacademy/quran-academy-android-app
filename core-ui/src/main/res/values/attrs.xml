@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="textColorPrimaryDisabled" format="reference|color" />
+    <attr name="prefHeaderTextColor" format="reference|color" />
+    <attr name="windowBackground" format="reference|color" />
+    <attr name="windowBackgroundSecondary" format="reference|color" />
+    <attr name="iconsColor" format="reference|color" />
+    <attr name="bgClickable" format="reference" />
+
+    <attr name="optionsValueBg" format="reference" />
+
+    <declare-styleable name="FlowLayout">
+        <attr name="horizontalSpacing" format="dimension" />
+        <attr name="verticalSpacing" format="dimension" />
+        <attr name="orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="rtl" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="FlowLayout_LayoutParams">
+        <attr name="layout_newLine" format="boolean" />
+        <attr name="layout_horizontalSpacing" format="dimension" />
+        <attr name="layout_verticalSpacing" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="SeekbarWithLabel">
+        <attr name="min" format="integer|reference" />
+        <attr name="max" format="integer|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="WaterfallToolbar">
+        <attr format="dimension" name="initial_elevation" />
+        <attr format="dimension" name="final_elevation" />
+        <attr format="integer" name="scroll_final_elevation" />
+    </declare-styleable>
+
+</resources>

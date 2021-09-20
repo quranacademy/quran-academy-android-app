@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="app_theme_titles">
+        <item>@string/app_theme_light</item>
+        <item>@string/app_theme_brown</item>
+        <item>@string/app_theme_dark</item>
+    </string-array>
+
+</resources>

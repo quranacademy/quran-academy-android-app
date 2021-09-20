@@ -1,0 +1,123 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?windowBackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/singleRepeatButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:background="?attr/optionsValueBg"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/play_ayah_once"
+        android:textColor="?android:attr/textColorSecondary"
+        app:layout_constraintEnd_toStartOf="@+id/endlessRepeatButton"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/repetitionsCountValue"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/singleRepeatButton"
+        tools:text="10" />
+
+    <TextView
+        android:id="@+id/endlessRepeatButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="?attr/optionsValueBg"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/play_ayah_infinitely"
+        android:textColor="?android:attr/textColorSecondary"
+        app:layout_constraintBottom_toBottomOf="@+id/singleRepeatButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/singleRepeatButton"
+        app:layout_constraintTop_toTopOf="@+id/singleRepeatButton" />
+
+    <FrameLayout
+        android:id="@+id/decreaseRepeatsCount"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="?playerOptionsCircleButtonBg"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/repetitionsCountValue"
+        app:layout_constraintEnd_toStartOf="@+id/repetitionsCountValue"
+        app:layout_constraintTop_toTopOf="@+id/repetitionsCountValue">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:tint="?attr/iconsColor"
+            app:srcCompat="@drawable/ic_decrease_black_24dp" />
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/increaseRepeatsCount"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="?playerOptionsCircleButtonBg"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/repetitionsCountValue"
+        app:layout_constraintStart_toEndOf="@+id/repetitionsCountValue"
+        app:layout_constraintTop_toTopOf="@+id/repetitionsCountValue">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:tint="?attr/iconsColor"
+            app:srcCompat="@drawable/ic_add_black_24dp" />
+
+    </FrameLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/selectButton"
+        style="@style/AppTheme.SpecialMaterialButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:stateListAnimator="@null"
+        android:text="@string/select"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/increaseRepeatsCount" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

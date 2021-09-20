@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Құран Академиясы</string>
+    <string name="check_network_dialog_message">Желінің ақауы</string>
+    <string name="check_network_dialog_title">Интернетпен байланысты тексеріңіз</string>
+    <string name="btn_retry_label">Қайталау</string>
+    <string name="btn_cancel_title">Бас тарту</string>
+    <string name="btn_label_ok">ОК</string>
+    <string name="read_more_label">ұлғайту</string>
+    <string name="read_less_label">кішірейту</string>
+    <string name="no_network_connection_title">Интернетпен байланыс жоқ</string>
+    <string name="no_network_connection_message">Өтінемін, интернетпен байланысты тексеріңіз және тағы байқап көріңіз.</string>
+    <string name="download_dialog_title">Жүктеу&#8230;</string>
+    <string name="download_progress_dialog_message">Жүктелді %1$s/%2$s</string>
+    <string name="ligature_replacement_sas">Аллаһтын оған игілігі мен сәлемі болсын</string>
+    <string name="ligature_replacement_as">Аллаһтын сәлемі болсын</string>
+    <string name="ligature_replacement_radu">Аллаһ оған разы болсын</string>
+    <string name="ligature_replacement_rada">Аллаһ оған разы болсын</string>
+    <string name="ligature_replacement_radum">Аллаһ оларға разы болсын</string>
+    <string name="ligature_replacement_raduma">Аллаһ ол екеуіне де разы болсын</string>
+    <string name="ligature_replacement_rahimahu">Аллах оған разы болсын</string>
+    <string name="ligature_replacement_rahimahum">Аллах оларға разы болсын</string>
+    <string name="ligature_replacement_rahimahuma">Аллах олардың екеуіне де разы болсын</string>
+    <!-- Splash screen -->
+    <string name="select_language_title">Тілді таңдаңыз</string>
+    <string name="btn_exit_label">Шығу</string>
+    <string name="data_migration_message">Өтінеміз, күте тұрыңыз, дайындалып жұмысы</string>
+    <string name="quran_data_downloading_started">Кұран жайлы деректі жүктеу басталды</string>
+    <string name="preparing_quran_data">Кұран тұралы деректер дайындалуда</string>
+    <string name="downloading_required_data_for_mushaf">Құранга қажетті деректерді жүктеу</string>
+    <!-- Intro screen -->
+    <string name="translations_intro_title">Құран аудармаларын таңдаңыз</string>
+    <string name="tafseers_intro_title">Құранның тәфсирін таңдаңыз</string>
+    <string name="wbw_translations_intro_title">Сөзбе-сөз аудармасын таңдаңыз</string>
+    <string name="intro_skip_button">Өткізіп жіберу</string>
+    <string name="intro_next_button">Әрі қарай</string>
+    <string name="intro_done_button">Дайын</string>
+    <!-- Main screen  -->
+    <string name="surahs">Сүрелер</string>
+    <string name="bookmarks">Бетбелгілер</string>
+    <string name="jump_to_ayah">Өту</string>
+    <string name="page_number">Беттің нөмірі</string>
+    <string name="settings">Баптаулар</string>
+    <string name="about_app">Қосымша жайлы</string>
+    <string name="open_bookmark">Бетбелгіні ашу</string>
+    <string name="rate_app">Қосымшаны бағалау</string>
+    <string name="translation_update_notification_title">Жаңарту қол жетімді</string>
+    <string name="translation_update_notification_details">Аудармаларды жаңарту қолжетімді</string>
+    <string name="select_reading_mode_title">Өтінеміз, оқу режимін таңдаңыз</string>
+    <string name="list_reading_mode">Тізім</string>
+    <string name="mushaf_reading_mode">Мусхаф</string>
+    <string name="max_quran_page_number_error_message">Максимальді бет саны 604</string>
+    <!--Search screen-->
+    <string name="search">Іздеу</string>
+    <string name="search_hint">Іздеу Құран</string>
+    <string name="no_results_label">Жоқ нәтижелері үшін "%s"</string>
+    <string name="arabic_search_result_ayah_info">Сүре %s, %s аят</string>
+    <string name="translation_search_result_ayah_info">Сүре %s, %s аят - %s</string>
+    <string name="search_results_count_label">Нәтижелері: %s</string>
+    <string name="search_message">Іздеу Құран мәтіні мен аудармасы. \nТалап етіледі кемінде үш таңба.</string>
+    <!-- Surahs tab screen  -->
+    <string name="juz_title">Жүз %1$d</string>
+    <string name="surah_description_template">%s, %s</string>
+    <string name="page_number_template">Бет %s</string>
+    <plurals name="ayahs_count_label">
+        <item quantity="one">%1$d аят</item>
+        <item quantity="other">%1$d аяттар</item>
+    </plurals>
+    <!-- Bookmarks tab screen  -->
+    <string name="recent_pages">Соңғы оқулары</string>
+    <string name="ayah_bookmarks">Аят бетбелгілері</string>
+    <string name="page_bookmarks">Беттер бетбелгілері</string>
+    <string name="page_bookmark_template">%s, бет %d</string>
+    <string name="bookmarks_not_found">Бетбелгілер табылмады</string>
+    <string name="delete_bookmark">Бетбелгіні өшіру</string>
+    <!-- Surahs details screen  -->
+    <string name="initial_setup">Бастапқы баптау</string>
+    <string name="translations_downloading_dialog_title">Аударманы таңдаңыз:</string>
+    <string name="open_text_settings_panel">Баптаулар тетігін ашу</string>
+    <string name="switch_read_mode">Оқу режимине қайта өту</string>
+    <string name="open_next_surah">Келесі сүре</string>
+    <!-- Ayah details dialog  -->
+    <string name="translations_sharing_dialog_title">Аударманы таңдаңыз:</string>
+    <string name="share_quranarabic_text_option">Құран араб мәтін</string>
+    <string name="copy_ayah">Аятты көшіру</string>
+    <string name="share_ayah">Аятпен бөлісу</string>
+    <string name="ayah_text_copied">Аят мәтіні көшірілді</string>
+    <!-- Mushaf screen  -->
+    <string name="download_page_bounds_data_title">Қажетті файлдарды жүктеу?</string>
+    <string name="download_page_bounds_data_message">Қосымшаның дұрыс жұмыс жасауы үшін кейбір файлдарды
+        жүктеу қажет. Өтінеміз, интернетпен байланысты тексеріңіз және «ОК»-ді басыңыз.</string>
+    <string name="download_images_bundle_title">Барлық беттерді жүктеу?</string>
+    <string name="download_images_bundle_message">Егер сіз қосымшаны оффлайн пайдаланғыңыз келсе, бізге барлық файлды бірден жүктеу қажет. Егер оны қазір жасамасаныз, әрбір файлды жүктеу айтарлықтай көп уақыт алады. Сұралган файлдарды қазір жүктегіңіз келеді ме?    </string>
+    <!-- Mushaf page screen  -->
+    <string name="page_load_error_message">Бетті жүктеудегі қате бар. Байланысты тексеріңіз</string>
+    <string name="bookmark_ayah">Аятты бетбелгілер қатарына қосу</string>
+    <string name="translation_ayah">Аударма/тәпсірі аяттың</string>
+    <string name="play_ayah">Аят тыңдау</string>
+    <string name="enabled_translations_not_found">Қосылған аудармалар жоқ</string>
+    <string name="open_translations_screen">Аудармалар экранын ашу</string>
+    <!-- Quran text settings  -->
+    <string name="text_sample">Мәтіннің үлгісі</string>
+    <string name="basmalah_text_translation">Ас Қамқор, Ерекше Мейірімді Аллаһтын атымен бастаймын.</string>
+    <string name="arabic_text_size">Арабша мәтіннің өлшемі</string>
+    <string name="translation_text_size">Аударма мәтінінің өлшемі</string>
+    <string name="wbw_text_size">Сөзбе-сөз аударма мәтінінің өлшемі</string>
+    <string name="arabic_font">Кұран шрифті</string>
+    <string name="translation_font">Аударма шрифті</string>
+    <string name="enable_arabic_text_centering">Аударма мәтінін ортаға келтіру</string>
+    <string name="enable_translation_text_centering">Аударма мәтінін ортаға келтіру</string>
+    <!-- Audiomanager -->
+    <string name="audio_manager">Аудио-Менеджер</string>
+    <string name="remove_recitation_audio_title">Аудионы өшіру керек пе?</string>
+    <string name="remove_recitation_audio_message">Сіз шынымен жойғыңыз келе ме %1$s?</string>
+    <string name="audio_downloading_title">Аудио жүктеу &#8230;</string>
+    <string name="audio_downloading_message">Жүктеу %1$s (%2$s/%3$s)</string>
+    <string name="recitation_audio_info">%d сүрелер жүктелген (%s)</string>
+    <string name="surah_audio_info">%d/%d аяттар жүктелген (%s)</string>
+    <string name="audio_not_downloaded">Жүктелген жоқ</string>
+    <!-- Audioplayer -->
+    <string name="ayah_number_option_value">%s, %d аят</string>
+    <plurals name="repetition_count_option_value">
+        <item quantity="one">%s рет</item>
+        <item quantity="other">%s рет</item>
+    </plurals>
+    <string name="play">Қосу</string>
+    <string name="stop">Тоқтату</string>
+    <string name="pause">Үзіліс</string>
+    <string name="next">Келесі аят</string>
+    <string name="prev">Алдыңғы аят</string>
+    <string name="now_playing">Қазір қосу</string>
+    <string name="ayah_playback_title">Сүре %s, %d аят</string>
+    <string name="ayah_is_download_message">Аятты жүктеу&#8230;</string>
+    <string name="audio_download_network_error_message">Бетті жүкту кезінде ақау шықты. Байланысты тексеріңіз</string>
+    <string name="ayah_download_incorrect_url_error_message">Жүктеудегі қате: осы орындаушының аудиосы жүктелмейді</string>
+    <string name="unknown_playback_error_message">Қосу кезіндегі белгісіз қателік</string>
+    <string name="ayah_audio_file_not_found_error_message">Аяттың аудио нұсқасы %d/%d табылмады</string>
+    <string name="playback_parameters">Қосу параметрі</string>
+    <string name="reciter">Орындаушы</string>
+    <string name="start_playback_ayah_label">Бастау:</string>
+    <string name="end_playback_ayah_label">Аяқтау:</string>
+    <string name="playback_range_title">Қосу диапозоны</string>
+    <string name="enable_player_auto_scroll_label">Қосу автоматты түрде айналдыру үшін</string>
+    <string name="highlight_words_label">Жылжып сөздер</string>
+    <string name="timecodes_download_message">Бөлу үшін сөздер ойнату кезінде аудио, қосымша файлдар қотарылады. Бастау жүктеу?</string>
+    <string name="btn_download_label">Жүктеу</string>
+    <string name="playback_repetitions_title">Қайталау</string>
+    <string name="playback_range_repetitions_count_title">Барлық аяттарды қайталау:</string>
+    <string name="playback_ayah_repetitions_count_title">Әрбір аятты қайталау:</string>
+    <string name="play_ayah_once">Бір рет</string>
+    <string name="play_ayah_infinitely">Шексіз</string>
+    <string name="permission_needed_title">Рұқсат керек</string>
+    <string name="surah_selection_title">Сүре:</string>
+    <string name="ayah_selection_title">Аят:</string>
+    <string name="external_permission_not_needed_message">Кұранның аудио нұсқасын жүктеу үшін аудио құрылыгынын сыртқы жадысына рұқсат керек.</string>
+    <string name="external_permission_not_granted_message">Кұранның аудио нұсқасын жүктеу үшін аудио құрылыгынын сыртқы жадысына рұқсат керек. Өтінеміз, баптаулар экранын ашып, қосымшаға сыртқы жадқа сақтауға рұқсат беріңіз.</string>
+    <string name="recitations_loading_network_error_message">Орындаушылар тізімін жүктеудегі қателік. Өтінеміз, байланысты текмеріңіз</string>
+    <!-- Memorization screens  -->
+    <string name="quran_memorization">Құран Жаттау</string>
+    <string name="quran_memorizatio_test">Жаттау Тест</string>
+    <string name="quran_memorization_tutorial">Жаттау, Оқулық</string>
+    <string name="start_label">Баста</string>
+    <string name="tutorial_label">Оқулық</string>
+    <string name="memorization_mode_label">Есте сақтау режимі:</string>
+    <string name="choose_memorizing_mode">Есте сақтау режимін таңдаңыз</string>
+    <string name="page_memorization_mode">Бет</string>
+    <string name="surah_memorization_mode">Сүре</string>
+    <string name="select_surah">Суретті таңдаңыз</string>
+    <string name="memorization_ayah_repetition_count">Қайталау саны:</string>
+    <string name="memorization_delay_between_repetitions">Қайталанулар арасындағы кідіріс:</string>
+    <string name="select_repetitions_count">Қайталану санын таңдаңыз</string>
+    <string name="select_delay_between_repetitions">Таңдаңыз задержка (секундпен)</string>
+    <string name="recitation_label">Оқылым:</string>
+    <string name="select_recitation">Оқуды таңдаңыз</string>
+    <string name="ayahs_range_selection_label">Аяхтар диапазоны:</string>
+    <string name="select_ayahs_range_title">Аяттардың диапазонын таңдаңыз</string>
+    <string name="select_page_number_title">Бет нөмірін таңдаңыз</string>
+    <string name="memorize_data_downloading_message">Есте сақтау үшін қажетті деректерді жүктеу</string>
+    <string name="exit_confirm_message">Шынымен шыққыңыз келе ме?</string>
+    <string name="memorization_completed_title">Есте сақтау аяқталды</string>
+    <string name="memorization_completed_message">Ауқымды қайтадан қайталағыңыз немесе экранды жапқыңыз келе ме?</string>
+    <string name="btn_start_memorization_again_label">Тағы да</string>
+    <string name="btn_finish_label">Аяқтау</string>
+    <!-- Settings screen  -->
+    <string name="prefs_appearance_title">Сыртқы бейне</string>
+    <string name="prefs_reading_title">Оқу</string>
+    <string name="prefs_language_title">Тіл</string>
+    <string name="prefs_app_theme_title">Тақырып</string>
+    <string name="prefs_mushaf_theme_title">Мусхаф тақырыбы</string>
+    <string name="prefs_quran_text_settings_title">Құран мәтінінің баптауы</string>
+    <string name="translations">Аудармалар</string>
+    <string name="tafseers">Тафсирлер</string>
+    <string name="word_by_word">Сөзбе сөз аударма</string>
+    <string name="prefs_quran_title">Құран</string>
+    <string name="prefs_translations_title">Аудармалар</string>
+    <string name="prefs_translations_summary">Тәпсірлерді жүктеу және басқару</string>
+    <string name="prefs_tafseers_title">Тафсирлер</string>
+    <string name="prefs_tafseers_summary">Тафсірлерді жүктеу және басқару</string>
+    <string name="prefs_translations_ordering_title">Аудармаларды сұрыптау</string>
+    <string name="prefs_translations_ordering_summary"></string>
+    <string name="prefs_word_by_word_translation_enabled_title">Сөзбе-сөз аударманы қосу</string>
+    <string name="prefs_word_by_word_translation_enabled_summary">Құранның сөзбе-сөз аудармасын көрсету</string>
+    <string name="prefs_word_by_word_translation_title">Сөзбе-сөз аударма тілі</string>
+    <string name="prefs_tajweeed_enabled_summary">Таджвид ережелерін түспен белгілеу</string>
+    <string name="prefs_tajweeed_enabled_title">Таджвидті қосу</string>
+    <string name="prefs_word_by_word_translation_summary">Сөзбе-сөз аудармаларды жүктеу</string>
+    <string name="prefs_translations_update_checking_enabled_title">Жаңаратуды тексеру</string>
+    <string name="prefs_translations_update_checking_enabled_summary">Аудармаларды жаңартуды тексеру</string>
+    <string name="app_theme_light">Ашық</string>
+    <string name="app_theme_brown">Қоңыр</string>
+    <string name="app_theme_dark">Қараңғы</string>
+    <string name="prefs_quran_arabic_text_size_title">Араб қарпінің өлшемі</string>
+    <string name="prefs_quran_translation_text_size_title">Аударма мәтінің өлшемі</string>
+    <string name="prefs_open_last_reading_place_on_start_title">Қосу кезінде оқу экранын ашу</string>
+    <string name="prefs_open_last_reading_place_on_start_summary">Қосылған кезде соңғы тоқтаған жерді ашу</string>
+    <string name="prefs_others_title">Тағы басқалары</string>
+    <string name="prefs_download_all_mushaf_images_title">Мусхафтың файлын өшіру</string>
+    <string name="prefs_download_all_mushaf_images_summary">Мусхафтың барлық бетін бірден жүктеу</string>
+    <string name="images_bundle_downloading_finished_message">Мусхаф файлдарын жүктеу сәтті жүзеге асырылды</string>
+    <!-- Languages manager screen -->
+    <string name="language_is_removed_message">Тіл ойдағыдай өзгертілді</string>
+    <!--Translations manager screen -->
+    <string name="downloaded_category_label">Жүктелді</string>
+    <string name="available_category_label">Жүктеуге қол жетімді</string>
+    <string name="remove_translation_title">Аударманы өшіру?</string>
+    <string name="remove_translation_message">Өшірігіңіз келетініне сенімідісіз бе %1$s?</string>
+    <string name="btn_remove_title">Өшіру</string>
+    <string name="update_available">Жаңарту қол жетімді</string>
+    <string name="translations_list_empty">Аудармалар табылмады</string>
+    <string name="show_in_list_title">Тізімде көрсету</string>
+    <string name="show_in_dialog_title">Диалогта көрсету</string>
+    <!--Tajweed rules screen  -->
+    <string name="tajweed_rules">Таджвид ережесі</string>
+    <string name="taj_rule_ghunna">Ғұнна (мұрын арқылы сөйлеу)</string>
+    <string name="taj_rule_qalqala">Қалқала (сілкіну)</string>
+    <string name="taj_rule_iqlab">Иқлаб (Ассимиляция/Парақтау)</string>
+    <string name="taj_rule_idgham">Идғам (біріктіру)</string>
+    <string name="taj_rule_idgham_without_ghunna">Ғұннасыз Идғам</string>
+    <string name="taj_rule_ikhfa">Ихфа (жасыру)</string>
+    <string name="stopping_sign_must_stop">Тоқтату Қажет</string>
+    <string name="stopping_sign_better_to_stop">Дұрысы тоқтату</string>
+    <string name="stopping_sign_pause_at_one">Көрсетілген орындардың бірінде тоқтау</string>
+    <string name="stopping_sign_a_slight_pause">Жеңіл үзіліс</string>
+    <string name="stopping_sign_stop_or_continue">Тоқтату немесе жалғастыру</string>
+    <string name="stopping_sign_better_to_continue">Дұрысы жалғастыру</string>
+    <string name="stopping_sign_dont_stop">Жалғастыру</string>
+    <!--Update needed screen  -->
+    <string name="update_needed_title">Қосымшаны жаңарту</string>
+    <string name="update_needed_message">Қосымшаның осы нұсқасы ескірді. Google play –ға өтіп, жаңа нұсқаны жүктеңіз.</string>
+    <string name="update_app_button_title">Жүктеу</string>
+    <!-- About screen  -->
+    <string name="about_title">Қосымша туралы</string>
+    <string name="about_feedback">Пікір жазу</string>
+    <string name="send_bug_report">Қателік жайлы хабарламаны жіберу</string>
+    <string name="share_app">Қосымшамен бөлісу</string>
+    <string name="translations_copyright">Маңызды ақпарат</string>
+    <string name="translations_copyright_title_message"><![CDATA[Барлық құқық қорғалған. Құқық иесінің жазбаша рұқсаты болмаса мағыналардың мына аудармаларының ешбір бөлігі аударылмайды, қосылмайды, іздеу жүйесінде сақталмайды  немесе кез-келген формада,кез-келген электронды, механикалық фотокөшіру,қайта жазу,шығару және басқа да құралдармен жіберіле алмайды <a href="mailto:hqaweb@gmail.com">hqaweb@gmail.com</a>
+        <br/><br/>
+        Ешқандай Құран аудармасы оның толыққанды мағынасын жеткізе алмайды, және де оны алмастырушы ретінде қолданыла алмайды. Құранның тереңдетілген мағынасын түсіну үшін Аллаһ елшісінің (оған Аллаһтың игілігі мен сәлемі болсын) сүннетіне және араб тіліндегі классикалық  талдауға жүгіну қажет.
+        <br/><br/>
+        Біз Құранның ең таңдаулы аудармалары мен тәпсірлер тізімін ұсынуға тырыстық. Соған қарамастан, адамға тән кемшіліктер немесе техникалық қателіктерді ескере отырып,  біз толққанды дәлдікті және келтірілген деректердің толықтығына уәде бере алмаймыз, және абайсызда кеткен қателер үшін жауапкершілік алмаймыз.
+        <br/><br/>
+        Аллах сізге Құран үйренуді жеңід етсін.]]></string>
+    <string name="google_play_app_not_found_error_message">Google Play табылмады</string>
+    <!-- Rate app dialog  -->
+    <string name="msg_please_rate_app">Сапасын жақсарту мақсатында, қосымшаны бағалаңыз!</string>
+    <string name="btn_label_rate_later">Кейінірек бағалаңыз</string>
+    <string name="leave_feedback_title">Пікір қалдыру</string>
+    <string name="bad_rating_feedback_hint_message">Біздің қосымшада не унамайтынын сипаттап беріңіз</string>
+    <string name="please_rate_us_title">Рахмет!</string>
+    <string name="please_rate_us_message">Бізді Google Play-да бағалаңыз</string>
+    <string name="incorrect_email_message">Почтаны дұрыс енгізіңіз</string>
+    <string name="empty_feedback_message">Пікірден кейінгі орын бос болмауы қажет</string>
+    <string name="btn_label_send">Жіберу</string>
+    <string name="feedback_sent_message">Пікір жіберілді</string>
+    <string name="email_hint_message">E-mail (міндетті емес)</string>
+    <string name="leave_feedback_hint_message">Біздің қосымша жайлы ойыңызбен бөлісіңіз</string>
+    <!--Error messages todo-->
+    <string name="not_enough_free_space_on_disk_message">Дискде бос орын жоқ.</string>
+    <string name="ssl_error_check_device_time_message">Жүйеге қосылуда қате бар. Құрылғыдағы уақытты тексеріңіз.</string>
+</resources>

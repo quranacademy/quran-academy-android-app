@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="font_roboto_light" translatable="false">fonts/roboto_light.ttf</string>
+    <string name="font_roboto_medium" translatable="false">fonts/roboto_medium.ttf</string>
+    <string name="font_roboto_regular" translatable="false">fonts/roboto_regular.ttf</string>
+    <string name="font_roboto_condensed_light" translatable="false">fonts/roboto_condensed_light.ttf</string>
+    <string name="font_vera_humana" translatable="false">fonts/vera_humana_regular.ttf</string>
+    <string name="font_pt_sans" translatable="false">fonts/pt_sans_regular.ttf</string>
+    <string name="font_pt_serif" translatable="false">fonts/pt_serif_regular.ttf</string>
+    <string name="font_lora" translatable="false">fonts/lora_regular.ttf</string>
+
+    <!-- Arabic -->
+    <string name="font_uthmanic_hafs" translatable="false">fonts/kfgqpc_uthmanic_hafs.ttf</string>
+    <string name="font_uthmanic_hafs_old" translatable="false">fonts/kfgqpc_uthmanic_hafs_old.ttf</string>
+    <string name="font_kitab" translatable="false">fonts/kitab.ttf</string>
+    <string name="font_scheherazade" translatable="false">fonts/scheherazade.ttf</string>
+
+</resources>

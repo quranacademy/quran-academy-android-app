@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="ripple_dark">#33ffffff</color>
+    <color name="ayah_toolbar_background">@color/hqa_blue_100</color>
+    <color name="toolbar_item_pressed">@color/hqa_blue_50</color>
+
+</resources>

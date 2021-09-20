@@ -1,0 +1,53 @@
+apply from: '../build_scripts/modules-config.gradle'
+
+android {
+
+    buildTypes {
+        release {
+            consumerProguardFiles 'proguard-rules.pro'
+        }
+    }
+
+    configurations.all {
+        resolutionStrategy.force libraries.gson
+    }
+
+}
+
+dependencies {
+    api project(':model-surah')
+    api project(':model-ayah')
+    api project(':model-translation')
+    api project(':model-wordbyword')
+    api project(':model-feedback')
+
+    api libraries.kotlinStdJdk
+    api libraries.multidex
+
+    //Kotlin Coroutines
+    def kotlinCoroutineVersion = "1.3.0-RC"
+    api "org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlinCoroutineVersion"
+    api "org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlinCoroutineVersion"
+
+    api "com.github.stephanenicolas.toothpick:toothpick:2.0.0"
+    api "com.github.stephanenicolas.toothpick:toothpick-runtime:2.0.0"
+    kapt libraries.toothpickCompiler
+
+    api libraries.jodaTime
+    api 'com.mindorks.android:prdownloader:0.6.0'
+    api libraries.zip4j
+    api libraries.gson
+    api libraries.retrofit
+    api libraries.retrofitGsonConverter
+
+    api libraries.moxy
+
+    api libraries.alligator
+
+    // Developer Tools
+    api libraries.timber
+    api libraries.logger
+    debugApi libraries.okHttpLoggingInterceptor
+    debugApi libraries.stetho
+    debugApi libraries.stethoOkHttp
+}

@@ -1,0 +1,33 @@
+apply from: '../build_scripts/modules-config.gradle'
+
+dependencies {
+    api project(':core')
+    api project(':core-ui-extensions')
+    implementation project(':core-prefs-api')
+    api project(':model-player')
+
+    api libraries.androidxCore
+    api libraries.androidxAnnotation
+    api libraries.androidxRecyclerView
+    api libraries.androidxSwipeRefreshLayout
+    api libraries.androidxMaterial
+    api libraries.preferences
+    api libraries.preferencesv14
+    api libraries.constraintLayout
+    api "androidx.core:core-ktx:1.3.2"
+    api 'com.duolingo.open:rtl-viewpager:2.0.0'
+
+    api libraries.materialize
+    api libraries.materialDialogs
+    api libraries.materialProgressBar
+    api libraries.fastScrollRecyclerView
+    api libraries.adapterDelegates
+    api libraries.calligraphy
+    //api "io.github.inflationx:viewpump:2.0.3"
+    api 'dev.b3nedikt.viewpump:viewpump:4.0.7'
+    implementation libraries.jsoup
+
+    //библиотека для рендеринга арабского текста
+    api(name: 'tehreer-android-release', ext: 'aar')
+    kapt libraries.toothpickCompiler
+}

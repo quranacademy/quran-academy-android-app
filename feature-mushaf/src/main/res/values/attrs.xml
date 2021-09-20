@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="mushafPageBackgroundColor" format="reference|color" />
+    <attr name="mushafPageTextColor" format="reference|color" />
+    <attr name="mushafSelectionHighlightColor" format="reference|color" />
+    <attr name="mushafBookmarkHighlightColor" format="reference|color" />
+    <attr name="mushafAudioHighlightColor" format="reference|color" />
+
+</resources>

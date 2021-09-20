@@ -1,0 +1,85 @@
+<resources>
+
+    <!-- Toolbars -->
+
+    <style name="Toolbar" parent="Base.ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="Toolbar.SubtitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- Widgets -->
+
+    <style name="QuranAcademySnackbar" parent="Base.Theme.AppCompat" />
+
+    <style name="AppTheme.SpecialMaterialButton" parent="Widget.MaterialComponents.Button">>
+        <item name="backgroundTint">@color/special_button_bg</item>
+        <item name="android:textColorPrimary">?android:attr/textColorPrimary</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.OptionLabel" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="AppTheme.OptionValue" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:maxLength">20</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:background">?attr/optionsValueBg</item>
+    </style>
+
+    <style name="AppTheme.ToolbarCheckbox" parent="">
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="ThemeOverlay.NumberPicker" parent="" >
+        <item name="colorControlNormal">?colorAccent</item>
+    </style>
+
+    <!-- Dialog -->
+
+    <style name="DialogTheme" parent="Base.Theme.AppCompat.Light.Dialog">
+        <item name="android:textColorPrimary">@color/text_primary_light</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/md_orange_200</item>
+        <item name="colorControlActivated">@color/md_orange_400</item>
+    </style>
+
+    <!--  Bottom Sheet  -->
+
+    <style name="ThemeOverlay.AppTheme.BottomSheetDialog" parent="@style/ThemeOverlay.MaterialComponents.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Widget.AppTheme.BottomSheet</item>
+        <item name="colorSurface">?windowBackground</item>
+
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Widget.AppTheme.BottomSheet" parent="Widget.MaterialComponents.BottomSheet.Modal">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.Demo</item>
+        <item name="colorSurface">?windowBackground</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.Demo" parent="">
+        <item name="cornerSize">16dp</item>
+        <item name="cornerFamily">rounded</item>
+    </style>
+
+</resources>

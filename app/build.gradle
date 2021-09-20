@@ -1,0 +1,158 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
+apply plugin: 'com.github.triplet.play'
+apply from: '../build_scripts/ci.gradle'
+
+android {
+    compileSdkVersion versions.compileSdk
+    buildToolsVersion versions.buildTools
+
+    flavorDimensions "default"
+
+    defaultConfig {
+        applicationId "org.quranacademy.quran"
+        minSdkVersion versions.minSdk
+        targetSdkVersion versions.targetSdk
+        versionCode 1004
+        versionName "1.9.3"
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+
+        buildConfigField "String", "BUILD_UID", '"' + getBuildUid() + '"'
+        buildConfigField "String", "BUILD_TIME", '"' + getBuildTime() + '"'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    signingConfigs {
+        quranacademy {
+            storeFile file('keystore.jks')
+            storePassword 'your_pass'
+            keyAlias 'quranacademy'
+            keyPassword 'your_pass'
+        }
+    }
+
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.quranacademy
+            applicationIdSuffix '.debug'
+            versionNameSuffix "-debug"
+        }
+
+        release {
+            signingConfig signingConfigs.quranacademy
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            firebaseCrashlytics {
+                nativeSymbolUploadEnabled true
+                strippedNativeLibsDir 'build/intermediates/stripped_native_libs/release/out/lib'
+                unstrippedNativeLibsDir 'build/intermediates/merged_native_libs/release/out/lib'
+            }
+        }
+    }
+
+    sourceSets.each {
+        it.java.srcDirs += "src/$it.name/kotlin"
+    }
+
+    sourceSets {
+        debug.res.srcDir 'src/debug/res'
+    }
+
+    dexOptions {
+        preDexLibraries true
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    packagingOptions {
+        doNotStrip '*/mips/*.so'
+        doNotStrip '*/mips64/*.so'
+        exclude 'META-INF/core_release.kotlin_module'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}
+
+play {
+    // Or any of 'rollout', 'beta', 'alpha', 'production' or 'internal'
+    serviceAccountEmail = 'google-play-publisher-plugin@api-7168017443870161783-872057.iam.gserviceaccount.com'
+    track = project.properties['googleplay.track']
+    serviceAccountCredentials = file('google-play-publisher-api-key.p12')
+}
+
+dependencies {
+    implementation project(':core')
+    implementation project(':core-database')
+    implementation project(':core-prefs-api')
+    implementation project(':core-prefs-impl')
+    implementation project(':core-network-api')
+    implementation project(':core-network-impl')
+    implementation project(':core-ui')
+
+    implementation project(':model-ayah')
+    implementation project(':model-feedback')
+    implementation project(':model-surah')
+    implementation project(':model-translation')
+    implementation project(':model-wordbyword')
+
+    implementation project(':app-appinitializer')
+    implementation project(':app-appmigration-api')
+    implementation project(':app-appmigration-impl')
+
+    implementation project(':data-ayahs-repository')
+    implementation project(':data-repository-appinfo-api')
+    implementation project(':data-repository-appinfo-impl')
+    implementation project(':data-quranimages-repository')
+    implementation project(':data-languages-repository')
+    implementation project(':data-quranimages-repository')
+    implementation project(':data-mushafpagebounds-repository')
+    implementation project(':data-surahs-repository')
+    implementation project(':data-translations-repository')
+    implementation project(':data-wordbyword-repository')
+    implementation project(':data-qurandata-repository')
+    implementation project(':data-quranpage-repository')
+    implementation project(':data-recitations-repository')
+
+    implementation project(':feature-ayahdetails')
+    implementation project(':feature-audiomanager')
+    implementation project(':feature-bookmarks')
+    implementation project(':feature-feedback')
+    implementation project(':feature-languagesmanager')
+    implementation project(':feature-mainscreen')
+    implementation project(':feature-memorization')
+    implementation project(':feature-mushaf')
+    implementation project(':feature-player')
+    implementation project(':feature-radio')
+    implementation project(':feature-settings')
+    implementation project(':feature-search')
+    implementation project(':feature-sharingdialog')
+    implementation project(':feature-surahdetails')
+    implementation project(':feature-splash')
+    implementation project(':feature-tajweedrules')
+    implementation project(':feature-textsettingspanel')
+    implementation project(':feature-translationsmanager')
+    implementation project(':feature-wordbywordmanager')
+    implementation project(':feature-updateneeded')
+
+    kapt libraries.moxyCompiler
+    kapt libraries.toothpickCompiler
+}

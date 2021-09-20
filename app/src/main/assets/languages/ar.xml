@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">أكاديمية القرآن</string>
+    <string name="check_network_dialog_message">خطأ في الشبكة</string>
+    <string name="check_network_dialog_title">تأكد من الاتصال بالشبكة</string>
+    <string name="btn_retry_label">إعادة المحاولة</string>
+    <string name="btn_cancel_title">إلغاء</string>
+    <string name="btn_label_ok">نعم</string>
+    <string name="read_more_label">عرض المزيد</string>
+    <string name="read_less_label">إظهار أقل</string>
+    <string name="no_network_connection_title">لا يوجد اتصال بالشبكة</string>
+    <string name="no_network_connection_message">الرجاء التأكد من الاتصال بالشبكة ثم تكرار المحاولة.</string>
+    <string name="download_dialog_title">تحميل&#8230;</string>
+    <string name="download_progress_dialog_message">تم تحميل %1$s/%2$s</string>
+    <string name="ligature_replacement_sas">صلى الله عليه و سلم</string>
+    <string name="ligature_replacement_as">عليه السلام</string>
+    <string name="ligature_replacement_radu">رضي الله عنه</string>
+    <string name="ligature_replacement_rada">رضي الله عنها</string>
+    <string name="ligature_replacement_radum">رضي الله عنهم</string>
+    <string name="ligature_replacement_raduma">رضي الله عنهما</string>
+    <string name="ligature_replacement_rahimahu">رحمه الله</string>
+    <string name="ligature_replacement_rahimahum">رحمهم الله</string>
+    <string name="ligature_replacement_rahimahuma">رحمهما الله</string>
+    <!-- Splash screen -->
+    <string name="select_language_title">اختر اللغة</string>
+    <string name="btn_exit_label">خروج</string>
+    <string name="data_migration_message">الرجاء الانتظار. جاري الإعداد للعمل</string>
+    <string name="quran_data_downloading_started">بدأ تحميل بيانات القرآن</string>
+    <string name="preparing_quran_data">إعداد بيانات القرآن</string>
+    <string name="downloading_required_data_for_mushaf">تحميل البيانات المطلوبة للمصحف</string>
+    <!-- Intro screen -->
+    <string name="translations_intro_title">اختر الترجمة</string>
+    <string name="tafseers_intro_title">اختر التفاسير</string>
+    <string name="wbw_translations_intro_title">اختر ترجمة بالكلمات</string>
+    <string name="intro_skip_button">تخطّي؟</string>
+    <string name="intro_next_button">التالي؟</string>
+    <string name="intro_done_button">إتمام؟</string>
+    <!-- Main screen  -->
+    <string name="surahs">سور</string>
+    <string name="bookmarks">فواصل كتب</string>
+    <string name="jump_to_ayah">انتقال</string>
+    <string name="page_number">رقم الصفحة</string>
+    <string name="settings">إعدادات</string>
+    <string name="about_app">عن التطبيق</string>
+    <string name="open_bookmark">فتح آخر فاصل</string>
+    <string name="rate_app">تقييم التطبيق؟</string>
+    <string name="translation_update_notification_title">يتوفر تحديث</string>
+    <string name="translation_update_notification_details">تتوفر تحديثات للترجمات</string>
+    <string name="select_reading_mode_title">الرجاء اختيار نظام القراءة</string>
+    <string name="list_reading_mode">قائمة</string>
+    <string name="mushaf_reading_mode">المصحف</string>
+    <string name="max_quran_page_number_error_message">أقصى رقم للصفحة - 604</string>
+    <!--Search screen-->
+    <string name="search">بحث</string>
+    <string name="search_hint">بحث في القران</string>
+    <string name="no_results_label">لا توجد نتائج ل\"%s\"</string>
+    <string name="arabic_search_result_ayah_info">السورة %s، الآية %s</string>
+    <string name="translation_search_result_ayah_info">السورة %s، الآية %s - %s</string>
+    <string name="search_results_count_label">النتائج: %s</string>
+    <string name="search_message"> البحث بالنص وترجمات القرآن .\nلابد من توفير 3 رموز على الأقل</string>
+    <string name="search_filters">مصفاة</string>
+    <!-- Surahs tab screen  -->
+    <string name="juz_title">الجزء %1$d</string>
+    <string name="surah_description_template">%s ،%s</string>
+    <string name="page_number_template">الصفحة %s</string>
+    <plurals name="ayahs_count_label">
+        <item quantity="zero">الآية %1$d</item>
+        <item quantity="one">%1$d الأية</item>
+        <item quantity="two">الآيتين %1$d</item>
+        <item quantity="few">%1$d الأيات</item>
+        <item quantity="many">%1$d الأيات</item>
+        <item quantity="other">%1$d الأية</item>
+    </plurals>
+    <!-- Bookmarks tab screen  -->
+    <string name="recent_pages">تاريخ القراءة</string>
+    <string name="ayah_bookmarks">فواصل للآيات</string>
+    <string name="page_bookmarks">فواصل الصفحات</string>
+    <string name="page_bookmark_template">%s، الصفحة %d</string>
+    <string name="bookmarks_not_found">الفواصل غير متوفرة</string>
+    <string name="delete_bookmark">حذف الفاصل</string>
+    <string name="select_bookmark_folder">اختر مجلد</string>
+    <string name="create_new_folder">إنشاء مجلد</string>
+    <string name="bookmarks_favorites_folder">مفضل</string>
+    <string name="rename_bookmark_folder">إعادة تسمية مجلد</string>
+    <string name="enter_bookmark_folder_name">أدخل اسم المجلد</string>
+    <string name="bookmark_folder_deleting_message">هل أنت متأكد من حذف الملف؟  في هذه الحالة، سيتم حذف جميع محتويات المجلد.</string>
+    <!-- Surahs details screen  -->
+    <string name="surah_info_template">%s, %s аятов</string>
+    <string name="current_reading_position_info">الصفحة %s، جزء %s</string>
+    <string name="open_text_settings_panel">فتح لوحة التحكم</string>
+    <string name="switch_read_mode">تغيير نظام القراءة</string>
+    <string name="open_next_surah">السورة التالية</string>
+    <!-- Ayah details dialog  -->
+    <string name="surah_name_sharing_template">سورة %s, %s</string>
+    <string name="translations_sharing_dialog_title">اختر الترجمة:</string>
+    <string name="share_quranarabic_text_option">نص القرآن</string>
+    <string name="copy_ayah">نسخ الآية</string>
+    <string name="share_ayah">مشاركة بالآية</string>
+    <string name="ayah_text_copied">تم نسخ نص الآية</string>
+    <!-- Mushaf screen  -->
+    <string name="download_page_bounds_data_title">هل ترغب بتحميل الملفات؟</string>
+    <string name="download_page_bounds_data_message">لتشغيل التطبيق بطريقة صحيحة يجب تحميل بعض الملفات. الرجاء التحقق من توفر اتصال بالإنترنت، ثم اضغط زر OK.</string>
+    <string name="download_images_bundle_title">هل ترغب بتحميل جميع الصفحات؟</string>
+    <string name="download_images_bundle_message">إذا أرت استخدام التطبيق بدون انترنت يجب عليك تحميل جميع ملفات الصفحات فوراً
+        إذا لم تفعل ذلك الآن، فإن تحميل كل صفحة سيشغل وقتاً كبيراً جداً.
+        هل ترغب بتحميل الملفات اللازمة الآن؟</string>
+    <!-- Mushaf page screen  -->
+    <string name="page_load_error_message">خطأ في تحميل الصفحة. رجاء, تأكد من الشبكة</string>
+    <string name="bookmark_ayah">تكوين فاصل لهذه الآية</string>
+    <string name="translation_ayah">ترجمة/تفسير الآية</string>
+    <string name="play_ayah">الاستماع للآية</string>
+    <string name="enabled_translations_not_found">لا توجد ترجمات منشطة</string>
+    <string name="open_translations_screen">فتح الشاشة مع الترجمات</string>
+    <!-- Quran text settings  -->
+    <string name="text_sample">مثال النص</string>
+    <string name="basmalah_text_translation">С именем Аллаха Милостивого, Милосердного!</string>
+    <string name="arabic_text_size">حجم النص العربي</string>
+    <string name="translation_text_size">حجم النص المترجم</string>
+    <string name="wbw_text_size">حجم النص للترجمة الحرفية</string>
+    <string name="arabic_font">خط القرآن</string>
+    <string name="translation_font">خط الترجمة</string>
+    <string name="enable_arabic_text_centering">توسيط النص العربي</string>
+    <string name="enable_translation_text_centering">توسيط النص المترجم</string>
+    <!-- Audiomanager -->
+    <string name="audio_manager">إدارة الصوت</string>
+    <string name="remove_recitation_audio_title">حذف ملفات السمعي؟</string>
+    <string name="remove_recitation_audio_message">هل ترغب في حذف الملف السمعي %1$s؟</string>
+    <string name="audio_downloading_title">تحميل ملفات الصوتي&#8230;</string>
+    <string name="audio_downloading_message">تحميل %1$s (%2$s/%3$s)</string>
+    <string name="recitation_audio_info">%d السور التي تم تحميلها (%s)</string>
+    <string name="surah_audio_info">%d/%d الآيات التي تم تحميلها (%s)</string>
+    <string name="audio_not_downloaded">لم يتم التحميل</string>
+    <!-- Audioplayer -->
+    <string name="ayah_number_option_value">%s، الآية %d</string>
+    <plurals name="repetition_count_option_value">
+        <item quantity="zero">%s مرة</item>
+        <item quantity="one">%s مرة</item>
+        <item quantity="two">%s مرتان</item>
+        <item quantity="few">%s مرات</item>
+        <item quantity="many">%s مرتا</item>
+        <item quantity="other">%s مرات</item>
+    </plurals>
+    <string name="play">تشغيل</string>
+    <string name="stop">إيقاف</string>
+    <string name="pause">إيقاف مؤقت</string>
+    <string name="next">الآية التالية</string>
+    <string name="prev">الآية السابقة</string>
+    <string name="now_playing">يشتغل الآن</string>
+    <string name="ayah_playback_title">السورة %s، الآية %d</string>
+    <string name="ayah_is_download_message">تحميل الآية &#8230;</string>
+    <string name="audio_download_network_error_message">خلل في التحميل. تحققوا من الربط بالإنترنت</string>
+    <string name="ayah_download_incorrect_url_error_message">خطأ التحميل: لا أستطيع تحميل الصوت لهذا القارئ</string>
+    <string name="unknown_playback_error_message">خطأ تشغيل غير معروف</string>
+    <string name="ayah_audio_file_not_found_error_message">الملف السمعي للآية %d/%d غير متوفر</string>
+    <string name="playback_parameters">معلمات التشغيل</string>
+    <string name="reciter">القارئ</string>
+    <string name="start_playback_ayah_label">البداية من:</string>
+    <string name="end_playback_ayah_label">حتى:</string>
+    <string name="playback_range_title">نطاق التشغيل</string>
+    <string name="enable_player_auto_scroll_label">تفعيل التمرير التلقائي</string>
+    <string name="highlight_words_label">تمييز الكلمات</string>
+    <string name="timecodes_download_message">لتمييز الكلمات في وقت تشغيل الصوت لابد من تحميل ملفات إضافية. البدء بالتحميل؟ </string>
+    <string name="btn_download_label">تحميل</string>
+    <string name="playback_repetitions_title">تكرار</string>
+    <string name="playback_range_repetitions_count_title">تكرار جميع الآيات:</string>
+    <string name="playback_ayah_repetitions_count_title">تكرار كل آية:</string>
+    <string name="play_ayah_once">مرة واحدة</string>
+    <string name="play_ayah_infinitely">باستمرار</string>
+    <string name="permission_needed_title">مطلوب توفر تصريح</string>
+    <string name="surah_selection_title">السورة:</string>
+    <string name="ayah_selection_title">الآية:</string>
+    <string name="external_permission_not_needed_message">لكي تحمل القرآن في هيئة سمعية، لابد من توفر وصول إلى ذاكرة الجهاز الخارجية.</string>
+    <string name="external_permission_not_granted_message">لتحميل القرآن في هيئة سمعية، لابد من توفر وصول إلى ذاكرة الجهاز الخارجية. من فضلكم، افتحوا شاشة التحكم واعطوا التطبيق الوصول إلى الذاكرة الخارجية.</string>
+    <string name="recitations_loading_network_error_message">خطأ تحميل قائمة القراء. من فضلكم تحققوا من توفر اتصال بالشبكة</string>
+    <!-- Memorization screens  -->
+    <string name="quran_memorization">تحفيظ القرآن</string>
+    <string name="quran_memorizatio_test">اختبار الحفظ</string>
+    <string name="quran_memorization_tutorial">تعليمات الحفظ</string>
+    <string name="start_label">ابدأ</string>
+    <string name="tutorial_label">تعليمات</string>
+    <string name="memorization_mode_label">نمط التحفيظ:</string>
+    <string name="choose_memorizing_mode">اختاروا نمط التحفيظ</string>
+    <string name="page_memorization_mode">الصفحة</string>
+    <string name="surah_memorization_mode">السورة</string>
+    <string name="select_surah">اختاروا السورة</string>
+    <string name="memorization_ayah_repetition_count">كمية التكرار:</string>
+    <string name="memorization_delay_between_repetitions">التأخير بين التكرارات:</string>
+    <string name="select_repetitions_count">اختاروا كمية التكرار</string>
+    <string name="select_delay_between_repetitions">اختاروا التأخير (بالثواني)</string>
+    <string name="recitation_label">القارئ:</string>
+    <string name="select_recitation">اختاروا القارئ</string>
+    <string name="ayahs_range_selection_label">مدى الآيات:</string>
+    <string name="select_ayahs_range_title">اختاروا مدى الآيات</string>
+    <string name="select_page_number_title">اختاروا رقم الصفحة</string>
+    <string name="memorize_data_downloading_message">تحميل البيانات اللازمة للتحفيظ</string>
+    <string name="exit_confirm_message">هل متأكد أنك تريد الخروج؟</string>
+    <string name="memorization_completed_title">انتهى التحفيظ</string>
+    <string name="memorization_completed_message">هل تريد البدء بالتحفيظ مرة أخرى أم إنهاءه؟</string>
+    <string name="btn_start_memorization_again_label">مرة أخرى</string>
+    <string name="btn_finish_label">الإنهاء</string>
+    <!-- Settings screen  -->
+    <string name="prefs_appearance_title">المظهر الخارجي</string>
+    <string name="prefs_reading_title">قراءة</string>
+    <string name="prefs_language_title">اللغة</string>
+    <string name="prefs_app_theme_title">لون التطبيق</string>
+    <string name="prefs_mushaf_theme_title">لون المصحف</string>
+    <string name="prefs_landscape_mode_title">الوضع الأفقي</string>
+    <string name="prefs_quran_text_settings_title">إعدادات نص القرآن</string>
+    <string name="translations">الترجمات</string>
+    <string name="tafseers">التفاسير</string>
+    <string name="word_by_word">الترجمة بالكلمة</string>
+    <string name="prefs_quran_title">القرآن</string>
+    <string name="prefs_translations_title">الترجمات</string>
+    <string name="prefs_translations_summary">تحميل و إدارة الترجمات</string>
+    <string name="prefs_tafseers_title">التفاسير</string>
+    <string name="prefs_tafseers_summary">تحميل و إدارة التفاسير</string>
+    <string name="prefs_translations_ordering_title">فرز الترجمات</string>
+    <string name="prefs_translations_ordering_summary"></string>
+    <string name="prefs_word_by_word_translation_enabled_title">تشغيل الترجمة بالكلمات</string>
+    <string name="prefs_word_by_word_translation_enabled_summary">عرض ترجمة القرآن بالكلمات</string>
+    <string name="prefs_word_by_word_translation_title">لغة الترجمة بالكلمات</string>
+    <string name="prefs_tajweeed_enabled_summary">تشغيل لإضاءة االتجويد</string>
+    <string name="prefs_tajweeed_enabled_title">تشغيل التجويد</string>
+    <string name="prefs_word_by_word_translation_summary">تحميل الترجمات بالكلمات</string>
+    <string name="prefs_translations_update_checking_enabled_title">التحقق من التحديث</string>
+    <string name="prefs_translations_update_checking_enabled_summary">تشغيل التحقق من تحديثات الترجمات</string>
+    <string name="app_theme_light">فاتح</string>
+    <string name="app_theme_brown">بني</string>
+    <string name="app_theme_dark">غامق</string>
+    <string name="prefs_quran_arabic_text_size_title">حجم الخط العربي</string>
+    <string name="prefs_quran_translation_text_size_title">حجم نص الترجمة</string>
+    <string name="prefs_open_last_reading_place_on_start_title">فتح شاشة القراءة عند بداية التشغيل</string>
+    <string name="prefs_open_last_reading_place_on_start_summary">تشغيل لآخر موقع قراءة عند بداية التشغيل</string>
+    <string name="prefs_others_title">البقية</string>
+    <string name="prefs_reading_history_size_title">حجم سجل القراءة</string>
+    <string name="prefs_reading_history_size_summary">حجم سجل القراءة</string>
+    <string name="prefs_download_all_mushaf_images_title">تحميل ملفات المصحف</string>
+    <string name="prefs_download_all_mushaf_images_summary">تحميل جميع صفحات المصحف دفعة واحدة</string>
+    <string name="images_bundle_downloading_finished_message">تم تحميل ملفات المصحف بنجاح</string>
+    <string name="prefs_files_location_title">دليل بيانات القرآن</string>
+    <string name="prefs_files_location_summary">اختر المجلد لحفظ ملفات القرآن</string>
+    <string name="prefs_internal_storage">التخزين الداخلي</string>
+    <string name="prefs_external_storage">بطاقة سد الخارجية</string>
+    <string name="free_space_info">متوفر - %s</string>
+    <string name="user_app_space_space_info">مستخدم - %s</string>
+    <string name="prefs_app_size">حجم البيانات الحالية</string>
+    <string name="prefs_calculating_app_size">تجري عملية حساب حجم التطبيق</string>
+    <string name="copying_app_files_title">نسخ الملفات</string>
+    <string name="copying_finished_message">تم النسخ بنجاح</string>
+    <string name="wait_translations_downloading_message">عفوا. يتعذر النقل أثناء التحميل. رجاء انتظار الانتهاء عملية التحميل و حاول مرة أخرى</string>
+    <string name="app_files_moving_error">حدث خطأ أثناء نقل الملفات</string>
+    <string name="no_enough_space_to_move_files">مساحة غير كافية لنقل ملفات المجلد</string>
+    <!-- Languages manager screen -->
+    <string name="language_is_removed_message">تم حذف اللغة بنجاح</string>
+    <!--Translations manager screen -->
+    <string name="downloaded_category_label">التي تم تحميلها</string>
+    <string name="available_category_label">متوفرة للتحميل</string>
+    <string name="remove_translation_title">هل ترغب في حذف هذه الترجمة؟</string>
+    <string name="remove_translation_message">هل أنت متأكد من رغبتك في حذف %1$s ؟</string>
+    <string name="btn_remove_title">تنفيذ الحذف</string>
+    <string name="update_available">يتوفر تحديث</string>
+    <string name="translations_list_empty">تعثر إيجاد الترجمات</string>
+    <string name="show_in_list_title">العرض في قائمة</string>
+    <string name="show_in_dialog_title">العرض في نافذة حوار</string>
+    <!--Tajweed rules screen  -->
+    <string name="tajweed_rules">قواعد التجويد</string>
+    <string name="taj_rule_ghunna">الغنة</string>
+    <string name="taj_rule_qalqala">القلقلة</string>
+    <string name="taj_rule_iqlab">الإقلاب</string>
+    <string name="taj_rule_idgham">الإدغام</string>
+    <string name="taj_rule_idgham_without_ghunna">الإدغم بدون الغنة</string>
+    <string name="taj_rule_ikhfa">الإخفاء</string>
+    <string name="stopping_sign_must_stop">واجب الوقف</string>
+    <string name="stopping_sign_better_to_stop">يفضل الوقف</string>
+    <string name="stopping_sign_pause_at_one">الوقف على واحدة</string>
+    <string name="stopping_sign_a_slight_pause">وقفة قصيرة</string>
+    <string name="stopping_sign_stop_or_continue">الوقف او الاستمرار</string>
+    <string name="stopping_sign_better_to_continue">يفضل الاستمرار</string>
+    <string name="stopping_sign_dont_stop">عدم الوقف</string>
+    <!--Radio  -->
+    <string name="quran_academy_radio">إذاعة بواسطة Quran Academy</string>
+    <string name="launch_radio_message">هل تريد تشغيل الإذاعة؟</string>
+    <!--Update needed screen  -->
+    <string name="update_needed_title">تحديث التطبيق</string>
+    <string name="update_needed_message">أصبح هذا الإصدار من التطبيق قديماً. من فضلكم، انتقلوا إلى Google Play لتحميل آخر إصدار.</string>
+    <string name="update_app_button_title">تحميل</string>
+    <!-- About screen  -->
+    <string name="about_title">عن التطبيق</string>
+    <string name="about_feedback">إبداء الرأي</string>
+    <string name="send_bug_report">إرسال تقرير حول الخطأ</string>
+    <string name="share_app">مشاركة التطبيق</string>
+    <string name="translations_copyright">معلومات هامة</string>
+    <string name="translations_copyright_title_message">جميع الحقوق محفوظة. غير مسموح إعادة ترجمة، أو تشغيل، أو حفظ في محرك بحث أي جزء من الترجمات الحالية للمعاني، أو أن يتم نقلها في أي هيئة وأي وسائل إلكترونية، أو ميكانيكية، أو مصورة، أو معادة التسجيل، أو منزوعة، أو غيرها، إذا لم يتوفر لذلك تصريح كتابي من قبل المالك. للاستفسار اكتبوا إلى البريد الإلكتروني <a href="mailto:hqaweb@gmail.com">hqaweb@gmail.com</a>
+        <br/><br/>
+        لا تتوفر أي ترجمة للقرآن تنقل المعنى لهذا الكتاب بصورة كاملة، ولا يمكن استخدامها كبديل. بغرض الحصول على المعنى الأعمق لابد من اللجوء إلى سنة رسول الله (عليه الصلاة والسلام) وكتب التفسير الكلاسيكية باللغة العربية.
+        <br/><br/>
+        لقد حاولنا توفير قائمة من الترجمات الأكثر قبولاً لمعاني وتفسير القرآن، إلا أنه، آخذين بعين الاعتبار توفر أخطاء بشرية أو تقنية، لانستطيع ضمان دقة مطلقة وشمولية البيانات المقدمة، ولا نتحمل المسؤولية عن الأخطاء المحتملة.
+        <br/><br/>
+        يسر الله لكم دراسة القرآن.</string>
+    <string name="google_play_app_not_found_error_message">GooglePlay غير متوفر</string>
+    <!-- Rate app dialog  -->
+    <string name="msg_please_rate_app">من فضلكم، قيموا التطبيق لمساعدتنالنكون أفضل!</string>
+    <string name="btn_label_rate_later">التقييم لاحقاً</string>
+    <string name="leave_feedback_title">ترك تغذية راجعة</string>
+    <string name="bad_rating_feedback_hint_message">من فضلكم، صفوا ما الذي لم يعجبكم في تطبيقنا</string>
+    <string name="please_rate_us_title">شكرا جزيلا!</string>
+    <string name="please_rate_us_message">من فضلكم، قيمونا كذلك في Google Play</string>
+    <string name="incorrect_email_message">ادخلوا البريد بصورة صحيحة</string>
+    <string name="empty_feedback_message">لا يمكن ترك حقل إبداء الرأي فارغاً</string>
+    <string name="btn_label_send">إرسال</string>
+    <string name="feedback_sent_message">تم ارسال تغذية راجعة</string>
+    <string name="email_hint_message">البريد الإلكتروني (غير إلزامي)</string>
+    <string name="leave_feedback_hint_message">من فضلكم، شاركونا ما الذي تعتقدونه عن تطبيقنا؟</string>
+    <!--Error messages todo-->
+    <string name="not_enough_free_space_on_disk_message">خطأ التحميل. لا توجد مساحة كافية في القرص.</string>
+    <string name="ssl_error_check_device_time_message">خطأ عند الاتصال بالسيرفر. من فضلكم، تحققوا من الوقت في جهازكم.</string>
+</resources>

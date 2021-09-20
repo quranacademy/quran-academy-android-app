@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/windowBackground"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/Toolbar"
+        app:elevation="4dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        tools:theme="@style/Toolbar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical">
+
+            <org.quranacademy.quran.ui.widgets.translationview.AyahTranslationsContainer
+                android:id="@+id/translationsContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@drawable/empty_tall_divider"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:showDividers="middle" />
+
+        </ScrollView>
+
+        <include
+            android:id="@+id/progressLayout"
+            layout="@layout/layout_progress" />
+
+        <TextView
+            android:id="@+id/translationsNotFoundLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?android:textColorPrimary"
+            android:padding="16dp"
+            android:visibility="gone"
+            android:text="@string/translations_list_empty"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+</LinearLayout>

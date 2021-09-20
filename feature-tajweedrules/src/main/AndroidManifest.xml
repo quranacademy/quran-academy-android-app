@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.quranacademy.quran.tajweedrules">
+
+    <application>
+
+        <activity android:name="org.quranacademy.quran.tajweedrules.ui.TajweedRulesActivity" />
+
+    </application>
+
+</manifest>

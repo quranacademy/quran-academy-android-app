@@ -1,0 +1,6 @@
+apply from: '../build_scripts/modules-config.gradle'
+
+dependencies {
+    implementation project(':model-translation')
+    implementation project(':model-wordbyword')
+}

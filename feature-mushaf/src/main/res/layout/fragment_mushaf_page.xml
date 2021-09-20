@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pageContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/mushafPageBackgroundColor">
+
+
+    <org.quranacademy.quran.mushaf.presentation.ui.page.pagelayout.MushafPageLayout
+        android:id="@+id/pageLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <include
+        android:id="@+id/progressLayout"
+        layout="@layout/layout_progress"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/loadErrorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/imageLoadError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp"
+            android:text="@string/page_load_error_message" />
+
+        <Button
+            android:id="@+id/retryLoadPage"
+            style="@style/AppTheme.SpecialMaterialButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="@string/btn_retry_label" />
+    </LinearLayout>
+
+</FrameLayout>

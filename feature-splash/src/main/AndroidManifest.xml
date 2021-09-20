@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.quranacademy.quran.splash">
+
+    <application>
+
+        <activity android:name=".presentation.ui.intro.AppIntroActivity" />
+
+    </application>
+
+</manifest>

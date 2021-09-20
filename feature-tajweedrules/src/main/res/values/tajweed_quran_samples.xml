@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ghunna_sample" translatable="false"><![CDATA[
+إِ<font color="#FF7E1E">نّ</font>َهَا عَلَيْه<font color="#58B800">ِم م</font>ُّؤْصَدَةٌۭ
+    ]]></string>
+
+    <string name="ikhfa_sample" translatable="false"><![CDATA[
+        تَرْمِيه<font color="#D500B7">ِم ب</font>ِحِجَارَ<font color="#169200">ةٍۢ م</font>ِّ<font color="#9400A8">ن س</font>ِجّ<font color="#4050FF">ِي</font>لٍۢ
+    ]]></string>
+
+    <string name="idgham_sample" translatable="false"><![CDATA[
+        ٱلَّذ<font color="#2144C1">ِىٓ</font> أَ<font color="#DD0008">طْ</font>عَمَه<font color="#58B800">ُم م</font>ِّ<font color="#9400A8">ن ج</font>ُو<font color="#169200">عٍۢ و</font>َءَامَنَه<font color="#58B800">ُم م</font>ِّنْ خ<font color="#4050FF">َو</font>ْفِۭ
+    ]]></string>
+
+    <string name="idgham_without_ghunna_sample" translatable="false"><![CDATA[
+        وَلَمْ يَك<font color="#169200">ُن ل</font>َّهُ<font color="#537FFF">ۥ</font> كُفُوًا أَحَ<font color="#DD0008">د</font>ُۢ
+    ]]></string>
+
+    <string name="iqlab_sample" translatable="false"><![CDATA[
+        كَذَّبَتْ ثَمُودُ وَعَا<font color="#26BFFD">دُۢ ب</font>ِ<font color="#AAAAAA">ٱ</font>لْقَارِعَةِ
+    ]]></string>
+
+    <string name="qalqala_sample" translatable="false"><![CDATA[
+        لَمْ يَلِـ<font color="#DD0008">دْ</font> وَلَمْ يُولَـ<font color="#DD0008">دْ</font>
+    ]]></string>
+
+</resources>

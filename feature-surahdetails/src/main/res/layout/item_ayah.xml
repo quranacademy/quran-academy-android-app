@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?attr/bgClickable"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/item_ayah_page_number_divider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/ayahNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="20sp"
+            tools:text="145" />
+
+        <ImageView
+            android:id="@+id/sajdaSymbol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:tint="?android:attr/textColorPrimary"
+            android:visibility="gone"
+            app:srcCompat="@drawable/sajdah_symbol"
+            tools:text="145"
+            tools:visibility="visible" />
+
+        <org.quranacademy.quran.ui.widgets.wordbywordview.WordByWordContainer
+            android:id="@+id/wordsWithTranslationContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:flChildSpacing="15dp"
+            app:flRowSpacing="0dp" />
+
+        <org.quranacademy.quran.ui.widgets.wordbywordview.WordByWordContainer
+            android:id="@+id/wordsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:flChildSpacing="0dp"
+            app:flRowSpacing="5dp" />
+
+        <org.quranacademy.quran.ui.widgets.translationview.AyahTranslationsContainer
+            android:id="@+id/translationsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:divider="@drawable/empty_tall_divider"
+            android:ellipsize="end"
+            android:orientation="vertical"
+            android:showDividers="middle" />
+
+    </LinearLayout>
+
+</LinearLayout>

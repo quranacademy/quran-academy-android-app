@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/bgClickable"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:paddingLeft="12dp"
+    android:paddingTop="12dp"
+    android:paddingRight="12dp"
+    android:paddingBottom="12dp">
+
+    <com.mta.tehreer.widget.TLabel
+        android:id="@+id/arabicText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:gravity="right"
+        app:textColor="?android:attr/textColorPrimary"
+        app:textSize="20sp"
+        app:typeface="@string/font_uthmanic_hafs" />
+
+    <TextView
+        android:id="@+id/translationText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="16sp"
+        app:fontPath="@string/font_roboto_regular"
+        app:layout_constraintBottom_toTopOf="@+id/searchResultDetails"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:text="Перевод аята" />
+
+    <TextView
+        android:id="@+id/searchResultDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:maxLines="1"
+        android:textColor="?android:attr/textColorSecondary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/searchResultText"
+        app:layout_constraintStart_toStartOf="@+id/searchResultText"
+        app:layout_constraintTop_toBottomOf="@+id/recitationTitle"
+        tools:text="5:114" />
+
+</LinearLayout>

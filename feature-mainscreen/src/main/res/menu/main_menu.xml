@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:title="@string/search"
+        android:icon="@drawable/ic_search_white_24dp"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_open_bookmark"
+        android:title="@string/open_bookmark"
+        android:icon="@drawable/ic_bookmark_white_24dp"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_jump_to_ayah"
+        android:title="@string/jump_to_ayah"
+        android:icon="@drawable/ic_jump_to_ayah_white_24dp"
+        app:showAsAction="always" />
+
+</menu>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TranslationsPanel">
+        <item name="android:textColorPrimary">@color/text_primary_night</item>
+        <item name="android:textColorSecondary">@color/text_secondary_night</item>
+    </style>
+
+</resources>

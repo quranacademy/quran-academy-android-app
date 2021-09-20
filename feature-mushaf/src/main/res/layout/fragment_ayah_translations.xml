@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="?attr/mushafPageBackgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/ayahTranslationsPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+            android:id="@+id/ayahTranslationLoadingProgress"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            app:mpb_progressStyle="circular" />
+
+        <LinearLayout
+            android:id="@+id/enabledTranslationsNotFoundLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/enabled_translations_not_found"
+                android:textColor="?android:textColorSecondary" />
+
+            <Button
+                android:id="@+id/openTranslationsScreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="@string/open_translations_screen"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+            <ImageButton
+                android:id="@+id/prevAyahButton"
+                android:layout_width="@dimen/ayah_translation_navigation_button_width"
+                android:layout_height="@dimen/ayah_translation_navigation_button_height"
+                android:layout_gravity="start"
+                android:visibility="gone"
+                app:srcCompat="@drawable/ic_previous_ayah_grey_24dp" />
+
+            <ImageButton
+                android:id="@+id/nextAyahButton"
+                android:layout_width="@dimen/ayah_translation_navigation_button_width"
+                android:layout_height="@dimen/ayah_translation_navigation_button_height"
+                android:layout_gravity="end"
+                android:visibility="gone"
+                app:srcCompat="@drawable/ic_next_ayah_grey_24dp" />
+
+        </FrameLayout>
+</FrameLayout>

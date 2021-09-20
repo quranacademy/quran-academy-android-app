@@ -1,0 +1,1 @@
+apply from: '../build_scripts/modules-config.gradle'

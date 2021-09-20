@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.quranacademy.quran.audiomanager">
+
+    <application>
+        <activity android:name=".ui.recitersslist.AudioManagerActivity" />
+        <activity android:name=".ui.recitationinfo.RecitationInfoActivity" />
+    </application>
+
+</manifest>

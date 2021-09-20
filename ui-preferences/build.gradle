@@ -1,0 +1,10 @@
+apply from: '../build_scripts/modules-config.gradle'
+
+dependencies {
+    api project(':core-ui')
+    api project(':core-ui-extensions')
+
+    api libraries.kotlinStdJdk
+    api libraries.androidxCore
+    api libraries.androidxMaterial
+}

@@ -1,0 +1,3 @@
+package org.quranacademy.sqliteciphergenerator.openhelpers
+
+typealias SQLiteDatabaseCipher = net.sqlcipher.database.SQLiteDatabase

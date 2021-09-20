@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.quranacademy.quran.languagesmanager">
+
+    <application>
+        <activity android:name=".presentation.ui.LanguagesManagerActivity" />
+    </application>
+
+</manifest>

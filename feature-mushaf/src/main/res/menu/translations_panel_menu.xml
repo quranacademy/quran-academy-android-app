@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/playAyah"
+        android:icon="@drawable/ic_play_white_24dp"
+        android:title="@string/play_ayah"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/copyAyah"
+        android:icon="@drawable/ic_content_copy_white_24dp"
+        android:title="@string/copy_ayah"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/openAppSettings"
+        android:icon="@drawable/ic_settings_white_24dp"
+        android:title="@string/settings"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/shareAyah"
+        android:icon="@drawable/ic_share_white_24dp"
+        android:title="@string/share_ayah"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/openTextSettings"
+        android:icon="@drawable/ic_text_size_white_24dp"
+        android:title="@string/open_text_settings_panel" />
+
+</menu>

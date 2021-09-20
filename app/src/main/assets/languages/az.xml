@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quran Academy</string>
+    <string name="check_network_dialog_message">Şəbəkə xətası</string>
+    <string name="check_network_dialog_title">Xahiş edirik, şəbəkə vəziyyətini yoxlayın</string>
+    <string name="btn_retry_label">Yenidən yoxla</string>
+    <string name="btn_cancel_title">Ləğv et</string>
+    <string name="btn_label_ok">OK</string>
+    <string name="read_more_label">daha çox göstər</string>
+    <string name="read_less_label">az göstər</string>
+    <string name="no_network_connection_title">Şəbəkə bağlantısı yoxdur</string>
+    <string name="no_network_connection_message">Şəbəkə bağlantısını yoxlayın və yenidən cəhd edin.</string>
+    <string name="download_dialog_title">Yüklənir &#8230;</string>
+    <string name="download_progress_dialog_message">Yükləndi %1$s/%2$s</string>
+    <string name="ligature_replacement_sas">səllallahu aleyhi və səlləm</string>
+    <string name="ligature_replacement_as">səllallahu aleyhi</string>
+    <string name="ligature_replacement_radu">radiyallahu anh</string>
+    <string name="ligature_replacement_rada">radiyallah anha</string>
+    <string name="ligature_replacement_radum">radiyallahu anhum</string>
+    <string name="ligature_replacement_raduma">radiyallahu anhuma</string>
+    <string name="ligature_replacement_rahimahu">rahmətullahi aleyh</string>
+    <string name="ligature_replacement_rahimahum">rahmətullahi aleyhum</string>
+    <string name="ligature_replacement_rahimahuma">rahmətullahi aleyhumə</string>
+    <!-- Splash screen -->
+    <string name="select_language_title">Dili seçin</string>
+    <string name="btn_exit_label">Çıxış</string>
+    <string name="data_migration_message">Xahiş edirəm gözləyin, işə hazırlaşın</string>
+    <string name="quran_data_downloading_started">Quran məlumatının yüklənməsi başlandı</string>
+    <string name="preparing_quran_data">Quran məlumatı hazırlanır</string>
+    <string name="downloading_required_data_for_mushaf">Mushaf üçün tələb olunan məlumatların yüklənməsi</string>
+    <!-- Intro screen -->
+    <string name="translations_intro_title">Quran tərcümələrini seçin</string>
+    <string name="tafseers_intro_title">Quran təfsirlərini seçin</string>
+    <string name="wbw_translations_intro_title">Quran sözbəsöz tərcüməni seçin</string>
+    <string name="intro_skip_button">Keç</string>
+    <string name="intro_next_button">Davam et</string>
+    <string name="intro_done_button">Bitti</string>
+    <!-- Main screen  -->
+    <string name="surahs">Sürələr</string>
+    <string name="bookmarks">Seçİlmİşlər</string>
+    <string name="jump_to_ayah">Gec</string>
+    <string name="page_number">Səhifə nömrəsi</string>
+    <string name="settings">Seçimlər</string>
+    <string name="about_app">Proqram haqqında</string>
+    <string name="open_bookmark">Bukmarkları açın</string>
+    <string name="rate_app">Proqrama rəy ver</string>
+    <string name="translation_update_notification_title">Yeniləmə mövcuddur</string>
+    <string name="translation_update_notification_details">Tərcümə yeniləmələri mövcuddur</string>
+    <string name="select_reading_mode_title">Xahiş edirik, oxuma rejimini seçin</string>
+    <string name="list_reading_mode">Siyahı</string>
+    <string name="mushaf_reading_mode">Mushaf</string>
+    <string name="max_quran_page_number_error_message">Maksimum səhifə sayı 604</string>
+    <!--Search screen-->
+    <string name="search">Axtarış</string>
+    <string name="search_hint">Quranda axtarın</string>
+    <string name="no_results_label">%s üçün nəticə tapılmadı</string>
+    <string name="search_message">Quran mətnini və tərcümələrini axtarın.\nƏn azı üç simvol tələb olunur.</string>
+    <!-- Surahs tab screen  -->
+    <string name="juz_title">Cüz %1$d</string>
+    <string name="surah_description_template">%s %s</string>
+    <string name="page_number_template">Səhifə %s</string>
+    <plurals name="ayahs_count_label">
+        <item quantity="one">%1$d ayə</item>
+        <item quantity="other">%1$d ayə</item>
+    </plurals>
+    <!-- Bookmarks tab screen  -->
+    <string name="recent_pages">Son oxunan yerlər</string>
+    <string name="ayah_bookmarks">Ayə bookmarks</string>
+    <string name="page_bookmarks">Səhifə bookmarks</string>
+    <string name="page_bookmark_template">%s, səh %d</string>
+    <string name="bookmarks_not_found">Bukmarklar tapılmadı</string>
+    <string name="delete_bookmark">Bukmarkı sil</string>
+    <!-- Surahs details screen  -->
+    <string name="initial_setup">İlkin quruluş</string>
+    <string name="translations_downloading_dialog_title">Tərcüməni seçin:</string>
+    <string name="open_text_settings_panel">Əyarlar panelini aç</string>
+    <string name="switch_read_mode">Oxu rejiminə keçin</string>
+    <string name="open_next_surah">Növbəti surə</string>
+    <!-- Ayah details dialog  -->
+    <string name="translations_sharing_dialog_title">Tərcümələri seçin:</string>
+    <string name="share_quranarabic_text_option">Quran ərəb mətni</string>
+    <string name="copy_ayah">Ayəni kopyala</string>
+    <string name="share_ayah">Ayəni paylaş</string>
+    <string name="ayah_text_copied">Ayənin mətni kopyalandı</string>
+    <!-- Mushaf screen  -->
+    <string name="download_page_bounds_data_title">Tələb olunan fayllar yüklənsin?</string>
+    <string name="download_page_bounds_data_message">Proqramın düzgün işləməsi üçün bəzi faylların yüklənməsi lazımdır. İnternet bağlantısını yoxlayın və "OK" düyməsinə basın.</string>
+    <string name="download_images_bundle_title">Bütün səhifələr yüklənsin?</string>
+    <string name="download_images_bundle_message">Proqramı oflayn işlətmək üçün
+        bütün sahifə faylarının eyni anda yüklənməsi tələb olunur. Bunu hal
+        hazırda etməsəniz, proqram düzgün çalışmaya bilər və oxumaq üçün
+        İnternet bağlantısı tələb oluna bilər. Lazım olan fayları indi yükləmək istəyirsinizmi?
+    </string>
+    <!-- Mushaf page screen  -->
+    <string name="page_load_error_message">Səhifə səhv yükləndi. Şəbəkə bağlantısını yoxlayın</string>
+    <string name="bookmark_ayah">Bu ayəni xatırla</string>
+    <string name="translation_ayah">Ayənin tərcüməsi/təfsiri</string>
+    <string name="play_ayah">Ayəni dinlə</string>
+    <string name="enabled_translations_not_found">Heç bir tərcümə secilməyib</string>
+    <string name="open_translations_screen">Tərcümələri aç</string>
+    <!-- Quran text settings  -->
+    <string name="text_sample">Mətn nümunəsi</string>
+    <string name="basmalah_text_translation">Mərhəmətli, və Rəhmli Allahın adı ilə.</string>
+    <string name="arabic_text_size">Ərəb fontun ölçüsü</string>
+    <string name="translation_text_size">Tərcümənin font ölçüsü</string>
+    <string name="wbw_text_size">Söz bə söz mətnin ölçüsü</string>
+    <string name="arabic_font">Ərəb fontu</string>
+    <string name="translation_font">Tərcümə fontu</string>
+    <string name="enable_arabic_text_centering">Ərəbcə mətni mərkəzləşdir</string>
+    <string name="enable_translation_text_centering">Tərcümə mətni mərkəzləşdir</string>
+    <!-- Audiomanager -->
+    <string name="audio_manager">Audio meneceri</string>
+    <string name="remove_recitation_audio_title">Audio fayl silinsin?</string>
+    <string name="remove_recitation_audio_message">%1$s faylını silmək istəyirsiniz?</string>
+    <string name="audio_downloading_title">Audionun&#8230; yüklənir</string>
+    <string name="audio_downloading_message">%1$s (%2$s/%3$s) yüklənir</string>
+    <string name="recitation_audio_info">%d surələr yükləndi (%s)</string>
+    <string name="surah_audio_info">%d/%d ayələr yükləndi (%s)</string>
+    <string name="audio_not_downloaded">Yüklənmədi</string>
+    <!-- Audioplayer -->
+    <string name="ayah_number_option_value">%s, %d ayə</string>
+    <plurals name="repetition_count_option_value">
+        <item quantity="one">%s dəfə</item>
+        <item quantity="other">%s dəfə</item>
+    </plurals>
+    <string name="play">Başlat</string>
+    <string name="stop">Stop</string>
+    <string name="pause">Pauza</string>
+    <string name="next">Növbəti ayəni oynat</string>
+    <string name="prev">Əvvəlki ayəni oynat</string>
+    <string name="now_playing">İndi səslənir</string>
+    <string name="ayah_playback_title">Surə %s, %d ayə</string>
+    <string name="ayah_is_download_message">Ayə&#8230; yüklənir</string>
+    <string name="audio_download_network_error_message">Yükləmə xətası: şəbəkə bağlantısını yoxlayın</string>
+    <string name="ayah_download_incorrect_url_error_message">Yükləmə səhvi: bu oxucu üçün audio yüklənə bilməz</string>
+    <string name="unknown_playback_error_message">Bilinməyən oynatma səhvi</string>
+    <string name="ayah_audio_file_not_found_error_message">Ayə %d/%d audio faylı tapılmadı</string>
+    <string name="playback_parameters">Oynatma parametrləri</string>
+    <string name="reciter">Oxucu</string>
+    <string name="start_playback_ayah_label">Başlanğıc:</string>
+    <string name="end_playback_ayah_label">Qədər:</string>
+    <string name="playback_range_title">Oynatma aralığı</string>
+    <string name="playback_repetitions_title">Təkrarlamalar</string>
+    <string name="playback_range_repetitions_count_title">Aranı təkrarla:</string>
+    <string name="playback_ayah_repetitions_count_title">Hər ayəni təkrarla:</string>
+    <string name="play_ayah_once">Bir dəfə</string>
+    <string name="play_ayah_infinitely">Sonsuz</string>
+    <string name="permission_needed_title">İcazə tələb edilir</string>
+    <string name="surah_selection_title">Surə:</string>
+    <string name="ayah_selection_title">Ayə:</string>
+    <string name="external_permission_not_needed_message">Quran oxumaq üçün xarici cihazın yaddaşına daxil olmaq tələb olunur.</string>
+    <string name="external_permission_not_granted_message">Quran oxumaq üçün xarici cihazın yaddaşına daxil olmaq tələb olunur. Xahiş edirik seçimlər ekranını açın və proqrama xarici yaddaşa daxil olunmasına icazə verin.</string>
+    <string name="recitations_loading_network_error_message">Oxucular siyahısı yüklənmə xatası. Şəbəkə bağlantınızı yoxlayın</string>
+    <!-- Memorization screens  -->
+    <!-- Settings screen  -->
+    <string name="prefs_appearance_title">Görünüş</string>
+    <string name="prefs_reading_title">Oxuma</string>
+    <string name="prefs_language_title">Dil</string>
+    <string name="prefs_app_theme_title">Fon</string>
+    <string name="prefs_mushaf_theme_title">Mushaf fonu</string>
+    <string name="prefs_quran_text_settings_title">Quran mətn parametrləri</string>
+    <string name="translations">Tərcümələr</string>
+    <string name="tafseers">Təfsirlər</string>
+    <string name="word_by_word">Söz bə söz</string>
+    <string name="prefs_quran_title">Quran</string>
+    <string name="prefs_translations_title">Tərcümələr</string>
+    <string name="prefs_translations_summary">Tərcümələri yükləyin və idərə edin</string>
+    <string name="prefs_tafseers_title">Təfsirlər</string>
+    <string name="prefs_tafseers_summary">Təfsirləri yükləyin və idərə edin</string>
+    <string name="prefs_translations_ordering_title">Tərcümələrin sıralanması</string>
+    <string name="prefs_word_by_word_translation_enabled_title">Söz bə söz rejimi qur</string>
+    <string name="prefs_word_by_word_translation_enabled_summary">Quranın söz bə söz tərcüməsini göstər</string>
+    <string name="prefs_word_by_word_translation_title">Söz bə söz tərcümə dili</string>
+    <string name="prefs_tajweeed_enabled_summary">Təcvid qanunlarını göstər</string>
+    <string name="prefs_tajweeed_enabled_title">Təcvidi qur</string>
+    <string name="prefs_word_by_word_translation_summary">Söz bə söz tərcümələri yükləyin</string>
+    <string name="prefs_translations_update_checking_enabled_title">Yenilənmələri yoxla</string>
+    <string name="prefs_translations_update_checking_enabled_summary">Tərcümələrin yenilənməsinin yoxlanmasını aktivləşdir</string>
+    <string name="app_theme_light">Açıq</string>
+    <string name="app_theme_brown">Qəhvəyi</string>
+    <string name="app_theme_dark">Tünd</string>
+    <string name="prefs_quran_arabic_text_size_title">Ərəb fontun ölçüsü</string>
+    <string name="prefs_quran_translation_text_size_title">Tərcümənin font ölçüsü</string>
+    <string name="prefs_open_last_reading_place_on_start_title">Başlayanda oxuma ekranını göstər</string>
+    <string name="prefs_open_last_reading_place_on_start_summary">Başlayanda son oxuduğum yerdən aç</string>
+    <string name="prefs_others_title">Digər</string>
+    <string name="prefs_download_all_mushaf_images_title">Mushaf fayllarını yüklə</string>
+    <string name="prefs_download_all_mushaf_images_summary">Bütün mushaf fayllarını yüklə</string>
+    <string name="images_bundle_downloading_finished_message">Mushaf faylları modulu müvəffəqiyyətlə yükləndi</string>
+    <!-- Languages manager screen -->
+    <string name="language_is_removed_message">Dil uğurla silindi</string>
+    <!--Translations manager screen -->
+    <string name="downloaded_category_label">Yükləndi</string>
+    <string name="available_category_label">Yükləmə üçün mövcüddur</string>
+    <string name="remove_translation_title">Tərcüməni silmək isyəyirsiz?</string>
+    <string name="remove_translation_message">%1$s silməyə əminsiz?</string>
+    <string name="btn_remove_title">Silmək</string>
+    <string name="update_available">Yeniləmə mövcuddur</string>
+    <string name="translations_list_empty">Tərcümələr tapılmadı</string>
+    <string name="show_in_list_title">Siyahıda göstərin</string>
+    <string name="show_in_dialog_title">Dialoqda göstər</string>
+    <!--Tajweed rules screen  -->
+    <string name="tajweed_rules">Təcvid qaydaları</string>
+    <string name="taj_rule_ghunna">Ğunna</string>
+    <string name="taj_rule_qalqala">Qəlqələ</string>
+    <string name="taj_rule_iqlab">İqləb</string>
+    <string name="taj_rule_idgham">İdğam</string>
+    <string name="taj_rule_idgham_without_ghunna">İdğam</string>
+    <string name="taj_rule_ikhfa">İxfə</string>
+    <string name="stopping_sign_must_stop">Dayanmaq lazımdır</string>
+    <string name="stopping_sign_better_to_stop">Dayanmaq daha yaxşıdır</string>
+    <string name="stopping_sign_pause_at_one">Birində dur</string>
+    <string name="stopping_sign_a_slight_pause">Kısa bir fasilə</string>
+    <string name="stopping_sign_stop_or_continue">Dur və ya Davam et</string>
+    <string name="stopping_sign_better_to_continue">Davam etmək daha yaxşıdır</string>
+    <string name="stopping_sign_dont_stop">Dayanma</string>
+    <!--Update needed screen  -->
+    <string name="update_needed_title">Proqramın yeniləməsi</string>
+    <string name="update_needed_message">Bu proqramın versiyası köhnəlib. Xahiş edirik, Google Play-dan son versiyasını yüklüyəsiniz.</string>
+    <string name="update_app_button_title">Yükləyin</string>
+    <!-- About screen  -->
+    <string name="about_title">Haqqımızda</string>
+    <string name="about_feedback">Rəyinizi bildirin</string>
+    <string name="send_bug_report">Xəta məlumatı göndərin</string>
+    <string name="share_app">Proqramla paylaşın</string>
+    <string name="translations_copyright">Vacib məlumat</string>
+    <string name="translations_copyright_title_message"><![CDATA[Bütün hüquqlar qorunur. Hər hansı bir sualınız üçün  <a href="hqaweb@gmail.com">hqaweb@gmail.com</a> ünvanına yaza bilərsiniz.
+        <br/><br/>
+        Quranın heç bir tərcüməsi bu Kitabın mənasını tam şəkildə verə və əvəzinə istifadə edilə bilməz. Quranın mənasını daha dərindən başa düşmək üçün Allahın Rəsulunun (səllallahu aleyhi və səlləm) sünnəsinə və ərəbcə klassik təfsirlərə müraciət etmək lazımdır.
+        <br/><br/>
+        Quranın mənası və təfsirlərinin ən məqbul tərcümələrinin siyahısını təqdim etməyə çalışdıq, lakin mümkün insan və ya texniki səhvləri nəzərə alaraq, verilmiş məlumatların düzgünlüyünü və tamlığını təmin edə bilmədiğimiz üçün heç bir məsuliyyət daşımırıq.
+        <br/><br/>
+        Allah, Quranın öyrənilməsini asanlaşdırsın.]]></string>
+    <string name="google_play_app_not_found_error_message">Google Play tapılmadı</string>
+    <!-- Rate app dialog  -->
+    <string name="msg_please_rate_app">Daha yaxşı olmaq üçün proqramı qiymətləndirməyi xahiş edirik!</string>
+    <string name="btn_label_rate_later">Daha sonra qiymətləndirin</string>
+    <string name="leave_feedback_title">Rəyinizi bildirin</string>
+    <string name="bad_rating_feedback_hint_message">Xahiş edirik proqram haqqında bəyənmədiyiniz məqamları paylaşın?</string>
+    <string name="please_rate_us_title">Wow, sağ olun!</string>
+    <string name="please_rate_us_message">Zəhmət olmasa bizi Google Play-də eyni qiymətləndirin</string>
+    <string name="incorrect_email_message">Düzgün e-poçt ünvanı daxil edin</string>
+    <string name="empty_feedback_message">Rəy hüceyrəsi boş ola bilməz</string>
+    <string name="btn_label_send">Göndərin</string>
+    <string name="feedback_sent_message">Rəy göndərildi</string>
+    <string name="email_hint_message">Email (məcburi deyil)</string>
+    <string name="leave_feedback_hint_message">Xahiş edirik proqram haqqında fikirlərinizi paylaşın?</string>
+    <!--Error messages todo-->
+    <string name="not_enough_free_space_on_disk_message">Yükləmək mümkün olmadı. Diskdə yetərli yer mövcud deyil.</string>
+    <string name="ssl_error_check_device_time_message">Serverə qoşularkən xəta baş verdi. Sizin cihazda saat parameterləri yoxlayın.</string>
+</resources>

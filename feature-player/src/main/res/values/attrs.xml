@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="rippleCircle" format="reference" />
+    <attr name="playerOptionsCircleButtonBg" format="reference" />
+    <attr name="playerProgressBg" format="reference" />
+    <attr name="playerProgressThumbBg" format="reference" />
+</resources>

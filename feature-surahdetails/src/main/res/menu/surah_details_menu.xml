@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_open_settings_screen"
+        android:icon="@drawable/ic_settings_white_24dp"
+        android:title="@string/settings"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_open_text_size_settings_panel"
+        android:icon="@drawable/ic_text_settings_white_24dp"
+        android:title="@string/open_text_settings_panel"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_switch_reader_mode"
+        android:icon="@drawable/ic_switch_reader_mode_white_24dp"
+        android:title="@string/switch_read_mode"
+        app:showAsAction="always" />
+
+</menu>

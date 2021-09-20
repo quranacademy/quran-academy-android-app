@@ -1,0 +1,7 @@
+apply from: '../build_scripts/modules-config.gradle'
+
+dependencies {
+    implementation project(':core-ui')
+    implementation project(':model-ayah')
+    implementation project(':ui-htmlcompat')
+}

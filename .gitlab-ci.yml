@@ -1,0 +1,34 @@
+image: jangrewe/gitlab-ci-android
+
+before_script:
+  - export GRADLE_USER_HOME=$(pwd)/.gradle
+  - export BUILD_NUMBER=$(git rev-list --count ${CI_BUILD_REF})
+  - export BUILD_COMMIT_SHA=${CI_COMMIT_SHA}
+  - chmod +x ./gradlew
+
+cache:
+  key: ${CI_PROJECT_ID}
+  paths:
+    - .gradle/
+
+stages:
+  - publish
+
+publish-play-alpha:
+  stage: publish
+  when: manual
+  script:
+    - ./gradlew publishApkRelease -Dorg.gradle.project.googleplay.track=alpha
+
+
+publish-play-beta:
+  stage: publish
+  when: manual
+  script:
+    - ./gradlew publishApkRelease -Dorg.gradle.project.googleplay.track=beta
+
+publish-play:
+    stage: publish
+    when: manual
+    script:
+        - ./gradlew publishApkRelease

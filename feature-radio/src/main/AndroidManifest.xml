@@ -1,0 +1,28 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.quranacademy.quran.radio">
+
+    <application
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+
+        <activity android:name=".presentation.RadioActivity" />
+
+        <service
+            android:name=".data.service.RadioService"
+            android:exported="false"
+            android:stopWithTask="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="androidx.media.session.MediaButtonReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

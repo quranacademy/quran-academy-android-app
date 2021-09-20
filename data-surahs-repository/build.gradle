@@ -1,0 +1,10 @@
+apply from: '../build_scripts/modules-config.gradle'
+
+dependencies {
+    implementation project(':core')
+    implementation project(':core-database')
+    implementation project(':core-network-api')
+    implementation project(':core-prefs-api')
+
+    kapt libraries.toothpickCompiler
+}

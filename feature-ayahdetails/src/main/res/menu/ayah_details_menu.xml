@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_add_bookmark"
+        android:title="@string/bookmark_ayah"
+        app:actionLayout="@layout/item_toolbar_add_bookmark"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_copy_ayah"
+        android:title="@string/copy_ayah"
+        android:icon="@drawable/ic_content_copy_white_24dp"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_share_ayah"
+        android:title="@string/share_ayah"
+        android:icon="@drawable/ic_share_white_24dp"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_play_ayah"
+        android:title="@string/play_ayah"
+        android:icon="@drawable/ic_play_white_24dp"
+        app:showAsAction="always" />
+
+</menu>

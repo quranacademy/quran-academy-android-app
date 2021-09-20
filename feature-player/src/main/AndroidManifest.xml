@@ -1,0 +1,25 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.quranacademy.quran.player">
+
+    <application>
+
+        <activity android:name=".presentation.global.ImmediatelyFinishActivity" />
+
+        <service
+            android:name="org.quranacademy.quran.player.data.quranplayer.service.PlaybackService"
+            android:exported="false"
+            android:stopWithTask="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="androidx.media.session.MediaButtonReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

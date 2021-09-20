@@ -1,0 +1,21 @@
+import java.text.SimpleDateFormat
+
+ext.getBuildNumber = {
+    (System.env.BUILD_NUMBER ?: 999) as int
+}
+
+ext.getBuildUid = {
+    System.env.BUILD_COMMIT_SHA ?: "local"
+}
+
+ext.getBuildTime = {
+    return new SimpleDateFormat("yyyy-MM-dd'T'HH:mm'Z'").format(new Date())
+}
+
+gradle.buildFinished {
+    println("VersionName: ${android.defaultConfig.versionName + android.buildTypes.release.versionNameSuffix}")
+    println("VersionCode: ${android.defaultConfig.versionCode}")
+    println("BuildNumber: ${getBuildNumber()}")
+    println("BuildUid: ${getBuildUid()}")
+}
+
